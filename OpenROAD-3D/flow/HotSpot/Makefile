@@ -13,7 +13,7 @@ SUPERLU = 0
 endif
 
 ifeq ($(SUPERLU), 1)
-#SuperLUroot	= /usr/lib/x86_64-linux-gnu
+SuperLUroot	= superlu
 BLASLIB    	= -lblas
 SUPERLULIB 	= -lsuperlu
 SLU_HEADER  = /usr/include/superlu/

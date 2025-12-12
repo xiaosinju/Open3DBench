@@ -1,0 +1,225 @@
+violation type: Short
+	srcs: net:me/genblk1_0__bp_cce_top/bp_cce/directory/_0820_ net:me/genblk1_0__bp_cce_top/bp_cce/directory/_1019_
+	bbox = (72.2350, 182.3150) - (72.3050, 182.3850) on Layer metal19
+violation type: Short
+	srcs: net:rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/_0193_ net:rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/_0199_
+	bbox = (145.7650, 338.9750) - (145.8350, 339.0450) on Layer metal19
+violation type: Short
+	srcs: net:me/network/data_cmd_channel/_02256_ net:me/network/data_cmd_channel/router_1__router.in_ff_1__no_stub_two_fifo.mem_1r1w.synth.mem\[259\]
+	bbox = (474.1100, 326.2350) - (474.1650, 326.3050) on Layer metal20
+violation type: Short
+	srcs: net:rof1_0__core/be/be_calculator/float_regfile/rf/z_notmacro_synth/_00183_
+	bbox = (114.0800, 697.5150) - (114.1500, 697.5850) on Layer metal19
+violation type: Short
+	srcs: net:net5848
+	bbox = (106.4600, 713.9150) - (106.5300, 714.0850) on Layer metal19
+violation type: Short
+	srcs: net:rof1_0__core/be/be_calculator/float_regfile/rf/z_notmacro_synth/_11408_ net:rof1_0__core/be/be_calculator/float_regfile/rf/z_notmacro_synth/_11410_
+	bbox = (171.4150, 708.7150) - (171.4850, 708.7850) on Layer metal19
+violation type: Short
+	srcs: net:rof1_0__core/be/be_calculator/float_regfile/rf/z_notmacro_synth/_00647_
+	bbox = (305.0300, 683.3750) - (305.1000, 683.4450) on Layer metal19
+violation type: Short
+	srcs: net:rof1_0__core/_00896_
+	bbox = (139.3500, 522.5150) - (139.4200, 522.5850) on Layer metal19
+violation type: Short
+	srcs: net:rof1_0__core/fe/bp_fe_pc_gen_1/_1492_ net:rof1_0__core/fe/bp_fe_pc_gen_1/_1494_
+	bbox = (192.6950, 397.9150) - (192.7650, 397.9850) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N31077_BOT
+	bbox = (76.4950, 176.4700) - (77.3700, 176.8000) on Layer metal10
+violation type: Metal Spacing
+	srcs: net:N158981_TOP net:N159010_TOP
+	bbox = (90.3800, 379.9950) - (90.4450, 380.1000) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N158981_TOP net:N159012_TOP
+	bbox = (90.0000, 386.9950) - (90.0650, 387.1000) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:rof1_0__core/be/_1787_ net:rof1_0__core/be/be_checker.calc_status_i\[289\]
+	bbox = (153.3600, 531.3000) - (153.4600, 531.3650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:rof1_0__core/be/_0408_ net:rof1_0__core/be_fe_cmd\[87\]
+	bbox = (143.2900, 556.5000) - (143.3900, 556.5650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:me/network/data_cmd_channel/_02256_ net:me/network/data_cmd_channel/router_1__router.in_ff_1__no_stub_two_fifo.mem_1r1w.synth.mem\[259\]
+	bbox = (474.0500, 326.7800) - (474.1100, 326.8300) on Layer metal20
+violation type: Metal Spacing
+	srcs: net:rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/_0364_ net:rof1_0__core/fe/bp_fe_pc_gen_1/genblk1_branch_prediction_1/_0455_
+	bbox = (149.9400, 363.3000) - (150.0400, 363.3650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N70585_BOT net:N70585_TOP
+	bbox = (533.2950, 400.4700) - (533.9800, 400.8000) on Layer metal10
+violation type: Metal Spacing
+	srcs: net:N31283_TOP net:me/genblk1_0__bp_cce_top/bp_cce/_02768_
+	bbox = (73.4700, 244.3350) - (73.5350, 244.4350) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N31283_TOP net:me/genblk1_0__bp_cce_top/bp_cce/_02768_
+	bbox = (73.4700, 244.3650) - (73.5350, 244.4350) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N73200_TOP net:rof1_0__core/be/be_calculator/float_regfile/rf/z_notmacro_synth/_02237_
+	bbox = (161.6950, 731.5000) - (161.8200, 731.5650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N76328_TOP net:rof1_0__core/be/be_calculator/float_regfile/rf/z_notmacro_synth/_01583_
+	bbox = (216.7950, 709.1000) - (216.9200, 709.1650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N69351_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 568.7150) - (640.1050, 568.7850) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69351_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 568.7150) - (640.1050, 568.7500) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69356_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 567.3150) - (640.1050, 567.3850) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69356_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 567.3150) - (640.1050, 567.3500) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69355_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 565.9150) - (640.1050, 565.9850) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69355_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 565.9150) - (640.1050, 565.9500) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69360_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 564.2350) - (640.1050, 564.3050) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69360_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 564.2350) - (640.1050, 564.2700) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69359_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 563.9550) - (640.1050, 564.0250) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69359_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 563.9550) - (640.1050, 563.9900) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69355_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 565.8800) - (640.1050, 566.0200) on Layer metal4
+violation type: Metal Spacing
+	srcs: net:N69351_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 568.6800) - (640.1050, 568.8200) on Layer metal4
+violation type: Metal Spacing
+	srcs: net:N69356_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 567.2800) - (640.1050, 567.4200) on Layer metal4
+violation type: Metal Spacing
+	srcs: net:N69359_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 563.9200) - (640.1050, 564.0600) on Layer metal4
+violation type: Metal Spacing
+	srcs: net:N69360_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 564.2000) - (640.1050, 564.3400) on Layer metal4
+violation type: Metal Spacing
+	srcs: net:me/genblk1_0__bp_cce_top/bp_cce/directory/_0954_ net:me/genblk1_0__bp_cce_top/bp_cce/directory/_0989_
+	bbox = (73.1900, 140.4600) - (73.2800, 140.5250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:rof1_0__core/be/_0946_ net:rof1_0__core/be/_1730_
+	bbox = (142.5300, 571.9000) - (142.6300, 571.9650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:net9918
+	bbox = (194.7750, 395.1850) - (194.8800, 395.1900) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:net9918
+	bbox = (194.7750, 395.1850) - (194.9150, 395.1900) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:rof1_0__core/fe/bp_fe_pc_gen_1/_0725_ net:rof1_0__core/fe/bp_fe_pc_gen_1/_0953_
+	bbox = (223.4700, 426.3000) - (223.5700, 426.3650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:rof1_0__core/be/be_mmu/dcache/_05925_ net:rof1_0__core/be/be_mmu/dcache/lce.lce_req_inst.miss_addr_i\[10\]
+	bbox = (278.7600, 546.7000) - (278.8600, 546.7650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:me/network/data_cmd_channel/_01383_ net:me/network/data_cmd_channel/_08356_
+	bbox = (306.6650, 258.3000) - (306.7900, 258.3650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:me/network/data_cmd_channel/_04986_ net:me/network/data_cmd_channel/_04987_
+	bbox = (459.7400, 305.7250) - (459.8050, 305.9000) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N69341_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 572.9150) - (640.1050, 572.9850) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69341_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 572.9150) - (640.1050, 572.9500) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69347_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 572.3550) - (640.1050, 572.4250) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69347_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 572.3550) - (640.1050, 572.3900) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69338_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 575.4350) - (640.1050, 575.5050) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69338_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 575.4350) - (640.1050, 575.4700) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69337_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 574.7350) - (640.1050, 574.8050) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69343_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 573.7550) - (640.1050, 573.8250) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69343_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 573.7550) - (640.1050, 573.7900) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69334_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 577.6750) - (640.1050, 577.7100) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69333_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 579.3550) - (640.1050, 579.4250) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69334_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 577.6750) - (640.1050, 577.7450) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69346_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 570.3950) - (640.1050, 570.4650) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69346_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 570.3950) - (640.1050, 570.4300) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69347_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 572.3200) - (640.1050, 572.3550) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69347_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 572.3900) - (640.1050, 572.4250) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69347_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 572.3900) - (640.1050, 572.3900) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69341_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 572.8800) - (640.1050, 572.9150) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69341_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 572.9500) - (640.1050, 572.9850) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69341_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 572.9500) - (640.1050, 572.9500) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69337_BOT
+	bbox = (640.1700, 574.8050) - (640.2450, 574.8400) on Layer metal3
+violation type: Metal Spacing
+	srcs: net:N69337_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 574.7000) - (640.1050, 574.8400) on Layer metal4
+violation type: Metal Spacing
+	srcs: net:N69334_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 577.6400) - (640.1050, 577.7800) on Layer metal4
+violation type: Metal Spacing
+	srcs: net:N69333_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 579.3200) - (640.1050, 579.4600) on Layer metal4
+violation type: Metal Spacing
+	srcs: net:N69338_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 575.4000) - (640.1050, 575.5400) on Layer metal4
+violation type: Metal Spacing
+	srcs: net:N69341_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 572.8800) - (640.1050, 573.0200) on Layer metal4
+violation type: Metal Spacing
+	srcs: net:N69343_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 573.7200) - (640.1050, 573.8600) on Layer metal4
+violation type: Metal Spacing
+	srcs: net:N69346_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 570.3600) - (640.1050, 570.5000) on Layer metal4
+violation type: Metal Spacing
+	srcs: net:N69347_BOT inst:rof1_0__core/be/be_mmu/dcache/data_mem_5__data_mem/macro_mem/mem
+	bbox = (640.0600, 572.3200) - (640.1050, 572.4600) on Layer metal4
+violation type: Cut Spacing
+	srcs: net:N29096_TOP
+	bbox = (88.4950, 138.8700) - (89.2950, 139.6700) on Layer via11
+violation type: Cut Spacing
+	srcs: net:N69359_BOT net:N69360_BOT
+	bbox = (640.1050, 564.0600) - (640.2450, 564.2000) on Layer via4

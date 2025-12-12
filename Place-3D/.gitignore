@@ -13,3 +13,8 @@ install
 *.so
 .DS_Store
 .vscode/*
+
+binaries
+data
+benchmarks
+build

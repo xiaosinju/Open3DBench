@@ -1,0 +1,1 @@
+sudo docker run -it -v $(pwd):/workspace openroad:latest bash

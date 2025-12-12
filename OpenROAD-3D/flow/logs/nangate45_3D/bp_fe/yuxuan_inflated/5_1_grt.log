@@ -1,0 +1,108 @@
+OpenROAD v2.0-17198-g8396d0866 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0366] port 'icache_id_i[0]' not found.
+[INFO GRT-0020] Min routing layer: metal2
+[INFO GRT-0021] Max routing layer: metal20
+[INFO GRT-0022] Global adjustment: 0%
+[INFO GRT-0023] Grid origin: (0, 0)
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0088] Layer metal1  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1350
+[INFO GRT-0088] Layer metal2  Track-Pitch = 0.1900  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal3  Track-Pitch = 0.1400  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal4  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal5  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal6  Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal7  Track-Pitch = 0.7985  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal8  Track-Pitch = 0.7990  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal9  Track-Pitch = 1.5940  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal10 Track-Pitch = 1.5960  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal11 Track-Pitch = 1.5940  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal12 Track-Pitch = 1.5960  line-2-Via Pitch: 1.6000
+[INFO GRT-0088] Layer metal13 Track-Pitch = 0.7985  line-2-Via Pitch: 1.0000
+[INFO GRT-0088] Layer metal14 Track-Pitch = 0.7990  line-2-Via Pitch: 0.8000
+[INFO GRT-0088] Layer metal15 Track-Pitch = 0.2800  line-2-Via Pitch: 0.4100
+[INFO GRT-0088] Layer metal16 Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal17 Track-Pitch = 0.2800  line-2-Via Pitch: 0.2800
+[INFO GRT-0088] Layer metal18 Track-Pitch = 0.1900  line-2-Via Pitch: 0.1750
+[INFO GRT-0088] Layer metal19 Track-Pitch = 0.1400  line-2-Via Pitch: 0.1400
+[INFO GRT-0088] Layer metal20 Track-Pitch = 0.1900  line-2-Via Pitch: 0.1350
+[INFO GRT-0019] Found 1 clock nets.
+[INFO GRT-0001] Minimum degree: 2
+[INFO GRT-0002] Maximum degree: 4327
+[INFO GRT-0003] Macros: 11
+[INFO GRT-0043] No OR_DEFAULT vias defined.
+[INFO GRT-0004] Blockages: 133401
+
+[INFO GRT-0053] Routing resources analysis:
+          Routing      Original      Derated      Resource
+Layer     Direction    Resources     Resources    Reduction (%)
+---------------------------------------------------------------
+metal1     Horizontal          0             0          0.00%
+metal2     Vertical       595935        416341          30.14%
+metal3     Horizontal     815670        565970          30.61%
+metal4     Vertical       379335        264665          30.23%
+metal5     Horizontal     380855        378856          0.52%
+metal6     Vertical       379335        378000          0.35%
+metal7     Horizontal     108775        107920          0.79%
+metal8     Vertical       108490        107919          0.53%
+metal9     Horizontal      54245         53676          1.05%
+metal10    Vertical        54245         51543          4.98%
+metal11    Horizontal      54245         51525          5.01%
+metal12    Vertical        54245         53865          0.70%
+metal13    Horizontal     108775        108204          0.52%
+metal14    Vertical       108490        107919          0.53%
+metal15    Horizontal     272935        271504          0.52%
+metal16    Vertical       379335        378000          0.35%
+metal17    Horizontal     380855        228572          39.98%
+metal18    Vertical       595935        360738          39.47%
+metal19    Horizontal     815670        411315          49.57%
+metal20    Vertical       595935        365430          38.68%
+---------------------------------------------------------------
+
+[INFO GRT-0197] Via related to pin nodes: 199008
+[INFO GRT-0198] Via related Steiner nodes: 9240
+[INFO GRT-0199] Via filling finished.
+[INFO GRT-0111] Final number of vias: 305583
+[INFO GRT-0112] Final usage 3D: 1938507
+
+[INFO GRT-0096] Final congestion report:
+Layer         Resource        Demand        Usage (%)    Max H / Max V / Total Overflow
+---------------------------------------------------------------------------------------
+metal1               0             0            0.00%             0 /  0 /  0
+metal2          416341         91992           22.10%             0 /  0 /  0
+metal3          565970        116330           20.55%             0 /  0 /  0
+metal4          264665         61275           23.15%             0 /  0 /  0
+metal5          378856        170421           44.98%             0 /  0 /  0
+metal6          378000         85442           22.60%             0 /  0 /  0
+metal7          107920         42345           39.24%             0 /  0 /  0
+metal8          107919         15187           14.07%             0 /  0 /  0
+metal9           53676         13989           26.06%             0 /  0 /  0
+metal10          51543          3073            5.96%             0 /  0 /  0
+metal11          51525          7806           15.15%             0 /  0 /  0
+metal12          53865          9006           16.72%             0 /  0 /  0
+metal13         108204         30786           28.45%             0 /  0 /  0
+metal14         107919         22381           20.74%             0 /  0 /  0
+metal15         271504         80939           29.81%             0 /  0 /  0
+metal16         378000         46638           12.34%             0 /  0 /  0
+metal17         228572         49213           21.53%             0 /  0 /  0
+metal18         360738         76277           21.14%             0 /  0 /  0
+metal19         411315         67841           16.49%             0 /  0 /  0
+metal20         365430         30817            8.43%             0 /  0 /  0
+---------------------------------------------------------------------------------------
+Total          4661962       1021758           21.92%             0 /  0 /  0
+
+[INFO GRT-0018] Total wirelength: 2385261 um
+[INFO GRT-0014] Routed nets: 34769
+[WARNING STA-0101] object 'rst_ni' not found.
+[WARNING STA-0472] no valid objects specified for -through
+[WARNING STA-0101] object 'reset_l' not found.
+[WARNING STA-0472] no valid objects specified for -through
+[WARNING STA-0101] object 'p_clk_async_reset_i' not found.
+[WARNING STA-0472] no valid objects specified for -through
+[INFO FLW-0007] clock CLK period 1.000000
+[INFO FLW-0008] Clock CLK period 2.126
+[INFO FLW-0009] Clock CLK slack -1.238
+[INFO FLW-0011] Path endpoint count 11970
+Elapsed time: 0:28.38[h:]min:sec. CPU time: user 27.65 sys 0.71 (99%). Peak memory: 677408KB.

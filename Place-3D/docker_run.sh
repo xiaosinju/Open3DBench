@@ -1,0 +1,1 @@
+sudo docker run --gpus all -it -v $(pwd):/workspace limbo018/dreamplace:cuda bash

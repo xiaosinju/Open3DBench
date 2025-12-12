@@ -153,7 +153,7 @@ export DIVIDE_DEF_PY      := $(HOTSPOT_SCRIPTS_DIR)/scripts/divide_def.py
 export REPORT_POWER_TCL   := $(HOTSPOT_SCRIPTS_DIR)/scripts/run_report_power.tcl
 export MERGE_PTRACE_PY      := $(HOTSPOT_SCRIPTS_DIR)/scripts/merge_ptrace.py
 export HOTSPOT_OUTPUT   := $(HOTSPOT_SCRIPTS_DIR)/scripts/output
-export STA_EXE            := /usr/local/bin/sta
+export STA_EXE            := $(shell which sta)
 export FINAL_DEF ?= $(RESULTS_DIR)/6_final.def
 export FINAL_V ?= $(RESULTS_DIR)/6_final.v
 export FINAL_SDC ?= $(RESULTS_DIR)/6_1_fill.sdc
@@ -357,14 +357,14 @@ endif
 # Priority is given to
 #       1 user explicit set with variable in Makefile or command line, for instance setting OPENROAD_EXE
 #       2 ORFS compiled tools: openroad, yosys
-export OPENROAD_EXE      ?= $(abspath $(FLOW_HOME)/../tools/install/OpenROAD/bin/openroad)
+export OPENROAD_EXE ?= $(shell which openroad)
 
 OPENROAD_ARGS            = -no_init $(OR_ARGS)
 OPENROAD_CMD             = $(OPENROAD_EXE) -exit $(OPENROAD_ARGS)
 OPENROAD_NO_EXIT_CMD     = $(OPENROAD_EXE) $(OPENROAD_ARGS)
 OPENROAD_GUI_CMD         = $(OPENROAD_EXE) -gui $(OR_ARGS)
 
-YOSYS_EXE               ?= $(abspath $(FLOW_HOME)/../tools/install/yosys/bin/yosys)
+YOSYS_EXE               ?= $(shell which yosys)
 
 # Use locally installed and built klayout if it exists, otherwise use klayout in path
 KLAYOUT_DIR = $(abspath $(FLOW_HOME)/../tools/install/klayout/)
@@ -690,7 +690,19 @@ do-autoflow:
 	$(OPENROAD_EXE) -exit scripts_3D/init_odb.tcl
 	$(UNSET_AND_MAKE) do-pre_cts
 
-    
+.PHONY: do-hbtflow
+do-hbtflow:
+	mkdir -p $(RESULTS_DIR) $(LOG_DIR) $(REPORTS_DIR)
+	$(OPENROAD_EXE) -exit scripts_3D/read_def.tcl
+	python3 scripts_3D/save_map_HBT.py
+	python3 scripts_3D/split_cts_def_HBT.py
+	$(OPENROAD_EXE) -exit scripts_3D/lg_bottom.tcl
+	$(OPENROAD_EXE) -exit scripts_3D/lg_upper.tcl
+	python3 scripts_3D/read_def_store_coord.py
+	$(OPENROAD_EXE) -exit scripts_3D/load_cts.tcl
+	cp $(RESULTS_DIR)/my_cts.odb $(RESULTS_DIR)/4_cts.odb
+	cp $(RESULTS_DIR)/1_synth.sdc $(RESULTS_DIR)/4_cts.sdc
+	$(UNSET_AND_MAKE) do-route do-finish
 	
 .PHONY: do-cts_eval
 do-cts_eval:
@@ -721,7 +733,7 @@ do-hotspot:
 		--prefix "upper"
 	
 	@echo "[2/8] Running power analysis with STA for upper die..."
-	$(STA_EXE) $(REPORT_POWER_TCL)
+	$(STA_EXE) $(REPORT_POWER_TCL) > tmp.file 2>&1
 
 	@mv "$(HOTSPOT_OUTPUT)/gcc.ptrace" "$(HOTSPOT_OUTPUT)/upper.ptrace"
 
@@ -734,7 +746,7 @@ do-hotspot:
 		--prefix "bottom"
 
 	@echo "[4/8] Running power analysis with STA for bottom die..."
-	$(STA_EXE) $(REPORT_POWER_TCL)
+	$(STA_EXE) $(REPORT_POWER_TCL) > tmp.file 2>&1
 
 	@mv "$(HOTSPOT_OUTPUT)/gcc.ptrace" "$(HOTSPOT_OUTPUT)/bottom.ptrace"
 

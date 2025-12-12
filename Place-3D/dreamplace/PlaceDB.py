@@ -121,6 +121,9 @@ class PlaceDB (object):
         self.max_net_weight = None # maximum net weight in timing opt
         self.dtype = None
 
+        self.shift_factor = None
+        self.scale_factor = None
+
     def scale_pl(self, shift_factor, scale_factor):
         """
         @brief scale placement solution only
@@ -784,6 +787,8 @@ class PlaceDB (object):
             params.scale_factor = 1.0 / self.site_width
         logging.info("set scale_factor = %g, as site_width = %g" % (params.scale_factor, self.site_width))
         self.scale(params.shift_factor, params.scale_factor)
+        self.shift_factor = params.shift_factor
+        self.scale_factor = params.scale_factor
 
         content = """
 ================================= Benchmark Statistics =================================

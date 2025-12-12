@@ -1,0 +1,23 @@
+{
+	"detailedroute__route__net": 190732,
+	"detailedroute__route__net__special": 0,
+	"detailedroute__route__drc_errors__iter:1": 262616,
+	"detailedroute__route__wirelength__iter:1": 4811670,
+	"detailedroute__route__drc_errors__iter:2": 76647,
+	"detailedroute__route__wirelength__iter:2": 4780955,
+	"detailedroute__route__drc_errors__iter:3": 67883,
+	"detailedroute__route__wirelength__iter:3": 4770880,
+	"detailedroute__route__drc_errors__iter:4": 8381,
+	"detailedroute__route__wirelength__iter:4": 4776609,
+	"detailedroute__route__drc_errors__iter:5": 2230,
+	"detailedroute__route__wirelength__iter:5": 4777039,
+	"detailedroute__route__drc_errors__iter:6": 1093,
+	"detailedroute__route__wirelength__iter:6": 4777190,
+	"detailedroute__route__drc_errors": 1093,
+	"detailedroute__route__wirelength": 4777190,
+	"detailedroute__route__vias": 1512176,
+	"detailedroute__route__vias__singlecut": 1512176,
+	"detailedroute__route__vias__multicut": 0,
+	"detailedroute__flow__warnings__count": 7607,
+	"detailedroute__flow__errors__count": 0
+}

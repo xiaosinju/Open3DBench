@@ -1,0 +1,1855 @@
+OpenROAD v2.0-17198-g8396d0866 
+Features included (+) or not (-): +Charts +GPU +GUI +Python : None
+This program is licensed under the BSD-3 license. See the LICENSE file for details.
+Components of this program may be licensed under more restrictive licenses which must be honored.
+[WARNING STA-0366] port 'icache_id_i[0]' not found.
+[INFO ORD-0030] Using 104 thread(s).
+detailed_route arguments: -droute_end_iter 5
+[INFO DRT-0149] Reading tech and libs.
+
+Units:                2000
+Number of layers:     41
+Number of macros:     279
+Number of vias:       55
+Number of viarulegen: 39
+
+[INFO DRT-0150] Reading design.
+[WARNING DRT-0120] Large net clk_i has 4327 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net N32040_BOT has 101 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net N32178_BOT has 173 pins which may impact routing performance. Consider optimization.
+[WARNING DRT-0120] Large net N32178_TOP has 533 pins which may impact routing performance. Consider optimization.
+
+Design:                   bp_fe_top
+Die area:                 ( 0 0 ) ( 1200000 800000 )
+Number of track patterns: 80
+Number of DEF vias:       0
+Number of components:     32739
+Number of terminals:      2511
+Number of snets:          0
+Number of nets:           39105
+
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/w_mask_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/rd_out[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/wd_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/addr_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/addr_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/addr_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/addr_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/addr_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/addr_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/addr_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/addr_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/addr_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/we_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/ce_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/btb_mem/macro_mem/mem/clk
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/w_mask_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/rd_out[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/wd_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/addr_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/addr_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/addr_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/addr_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/addr_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/addr_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/addr_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/addr_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/addr_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/we_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/ce_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_0__data_mem_bank/macro_mem/mem/clk
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/w_mask_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/rd_out[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/wd_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/addr_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/addr_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/addr_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/addr_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/addr_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/addr_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/addr_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/addr_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/addr_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/we_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/ce_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_1__data_mem_bank/macro_mem/mem/clk
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/w_mask_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/rd_out[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/wd_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/addr_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/addr_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/addr_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/addr_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/addr_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/addr_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/addr_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/addr_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/addr_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/we_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/ce_in
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_2__data_mem_bank/macro_mem/mem/clk
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/w_mask_in[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[55]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[56]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[57]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[58]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[59]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[60]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[61]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[62]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/rd_out[63]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[0]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[1]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[2]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[3]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[4]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[5]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[6]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[7]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[8]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[9]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[10]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[11]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[12]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[13]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[14]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[15]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[16]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[17]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[18]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[19]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[20]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[21]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[22]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[23]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[24]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[25]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[26]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[27]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[28]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[29]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[30]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[31]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[32]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[33]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[34]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[35]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[36]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[37]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[38]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[39]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[40]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[41]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[42]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[43]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[44]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[45]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[46]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[47]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[48]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[49]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[50]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[51]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[52]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[53]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[54]
+[WARNING DRT-0419] No routing tracks pass through the center of Term icache_1/data_mem_banks_3__data_mem_bank/macro_mem/mem/wd_in[55]
+[WARNING DRT-0419] message limit (1000) reached. This message will no longer print.
+[INFO DRT-0167] List of default vias:
+  Layer via1
+    default via: via1_7
+  Layer via2
+    default via: via2_5
+  Layer via3
+    default via: via3_2
+  Layer via4
+    default via: via4_0
+  Layer via5
+    default via: via5_0
+  Layer via6
+    default via: via6_0
+  Layer via7
+    default via: via7_0
+  Layer via8
+    default via: via8_0
+  Layer via9
+    default via: via9_0
+  Layer hb_layer
+    default via: hb_layer_0
+  Layer via11
+    default via: via11_0
+  Layer via12
+    default via: via12_0
+  Layer via13
+    default via: via13_0
+  Layer via14
+    default via: via14_0
+  Layer via15
+    default via: via15_0
+  Layer via16
+    default via: via16_0
+  Layer via17
+    default via: via17_2
+  Layer via18
+    default via: via18_5
+  Layer via19
+    default via: via19_7
+[INFO DRT-0162] Library cell analysis.
+[INFO DRT-0163] Instance analysis.
+[INFO DRT-0164] Number of unique instances = 764.
+[INFO DRT-0168] Init region query.
+[INFO DRT-0024]   Complete active.
+[INFO DRT-0024]   Complete Fr_VIA.
+[INFO DRT-0024]   Complete metal1.
+[INFO DRT-0024]   Complete via1.
+[INFO DRT-0024]   Complete metal2.
+[INFO DRT-0024]   Complete via2.
+[INFO DRT-0024]   Complete metal3.
+[INFO DRT-0024]   Complete via3.
+[INFO DRT-0024]   Complete metal4.
+[INFO DRT-0024]   Complete via4.
+[INFO DRT-0024]   Complete metal5.
+[INFO DRT-0024]   Complete via5.
+[INFO DRT-0024]   Complete metal6.
+[INFO DRT-0024]   Complete via6.
+[INFO DRT-0024]   Complete metal7.
+[INFO DRT-0024]   Complete via7.
+[INFO DRT-0024]   Complete metal8.
+[INFO DRT-0024]   Complete via8.
+[INFO DRT-0024]   Complete metal9.
+[INFO DRT-0024]   Complete via9.
+[INFO DRT-0024]   Complete metal10.
+[INFO DRT-0024]   Complete hb_layer.
+[INFO DRT-0024]   Complete metal11.
+[INFO DRT-0024]   Complete via11.
+[INFO DRT-0024]   Complete metal12.
+[INFO DRT-0024]   Complete via12.
+[INFO DRT-0024]   Complete metal13.
+[INFO DRT-0024]   Complete via13.
+[INFO DRT-0024]   Complete metal14.
+[INFO DRT-0024]   Complete via14.
+[INFO DRT-0024]   Complete metal15.
+[INFO DRT-0024]   Complete via15.
+[INFO DRT-0024]   Complete metal16.
+[INFO DRT-0024]   Complete via16.
+[INFO DRT-0024]   Complete metal17.
+[INFO DRT-0024]   Complete via17.
+[INFO DRT-0024]   Complete metal18.
+[INFO DRT-0024]   Complete via18.
+[INFO DRT-0024]   Complete metal19.
+[INFO DRT-0024]   Complete via19.
+[INFO DRT-0024]   Complete metal20.
+[INFO DRT-0033] active shape region query size = 0.
+[INFO DRT-0033] FR_VIA shape region query size = 0.
+[INFO DRT-0033] metal1 shape region query size = 321314.
+[INFO DRT-0033] via1 shape region query size = 0.
+[INFO DRT-0033] metal2 shape region query size = 5.
+[INFO DRT-0033] via2 shape region query size = 0.
+[INFO DRT-0033] metal3 shape region query size = 1702.
+[INFO DRT-0033] via3 shape region query size = 0.
+[INFO DRT-0033] metal4 shape region query size = 549.
+[INFO DRT-0033] via4 shape region query size = 0.
+[INFO DRT-0033] metal5 shape region query size = 1004.
+[INFO DRT-0033] via5 shape region query size = 0.
+[INFO DRT-0033] metal6 shape region query size = 1507.
+[INFO DRT-0033] via6 shape region query size = 0.
+[INFO DRT-0033] metal7 shape region query size = 0.
+[INFO DRT-0033] via7 shape region query size = 0.
+[INFO DRT-0033] metal8 shape region query size = 0.
+[INFO DRT-0033] via8 shape region query size = 0.
+[INFO DRT-0033] metal9 shape region query size = 0.
+[INFO DRT-0033] via9 shape region query size = 0.
+[INFO DRT-0033] metal10 shape region query size = 3117.
+[INFO DRT-0033] hb_layer shape region query size = 0.
+[INFO DRT-0033] metal11 shape region query size = 3117.
+[INFO DRT-0033] via11 shape region query size = 0.
+[INFO DRT-0033] metal12 shape region query size = 0.
+[INFO DRT-0033] via12 shape region query size = 0.
+[INFO DRT-0033] metal13 shape region query size = 0.
+[INFO DRT-0033] via13 shape region query size = 0.
+[INFO DRT-0033] metal14 shape region query size = 0.
+[INFO DRT-0033] via14 shape region query size = 0.
+[INFO DRT-0033] metal15 shape region query size = 0.
+[INFO DRT-0033] via15 shape region query size = 0.
+[INFO DRT-0033] metal16 shape region query size = 0.
+[INFO DRT-0033] via16 shape region query size = 0.
+[INFO DRT-0033] metal17 shape region query size = 722.
+[INFO DRT-0033] via17 shape region query size = 0.
+[INFO DRT-0033] metal18 shape region query size = 2646.
+[INFO DRT-0033] via18 shape region query size = 0.
+[INFO DRT-0033] metal19 shape region query size = 352748.
+[INFO DRT-0033] via19 shape region query size = 0.
+[INFO DRT-0033] metal20 shape region query size = 6.
+[INFO DRT-0165] Start pin access.
+[INFO DRT-0076]   Complete 1000 pins.
+[INFO DRT-0076]   Complete 2000 pins.
+[INFO DRT-0076]   Complete 3000 pins.
+[INFO DRT-0076]   Complete 4000 pins.
+[INFO DRT-0078]   Complete 4352 pins.
+[INFO DRT-0079]   Complete 100 unique inst patterns.
+[INFO DRT-0079]   Complete 200 unique inst patterns.
+[INFO DRT-0079]   Complete 300 unique inst patterns.
+[INFO DRT-0079]   Complete 400 unique inst patterns.
+[INFO DRT-0079]   Complete 500 unique inst patterns.
+[INFO DRT-0079]   Complete 600 unique inst patterns.
+[INFO DRT-0079]   Complete 700 unique inst patterns.
+[INFO DRT-0081]   Complete 753 unique inst patterns.
+[INFO DRT-0082]   Complete 10000 groups.
+[INFO DRT-0082]   Complete 20000 groups.
+[INFO DRT-0084]   Complete 25853 groups.
+#scanned instances     = 32739
+#unique  instances     = 764
+#stdCellGenAp          = 24295
+#stdCellValidPlanarAp  = 18381
+#stdCellValidViaAp     = 10160
+#stdCellPinNoAp        = 0
+#stdCellPinCnt         = 112498
+#instTermValidViaApCnt = 0
+#macroGenAp            = 3684
+#macroValidPlanarAp    = 3684
+#macroValidViaAp       = 0
+#macroNoAp             = 0
+[INFO DRT-0166] Complete pin access.
+[INFO DRT-0267] cpu time = 00:09:41, elapsed time = 00:00:10, memory = 305.61 (MB), peak = 307.47 (MB)
+[INFO DRT-0156] guideIn read 100000 guides.
+[INFO DRT-0156] guideIn read 200000 guides.
+[INFO DRT-0156] guideIn read 300000 guides.
+[INFO DRT-0156] guideIn read 400000 guides.
+
+[INFO DRT-0157] Number of guides:     401229
+
+[INFO DRT-0169] Post process guides.
+[INFO DRT-0176] GCELLGRID X 0 DO 285 STEP 4200 ;
+[INFO DRT-0177] GCELLGRID Y 0 DO 190 STEP 4200 ;
+[INFO DRT-0026]   Complete 100000 origin guides.
+[INFO DRT-0026]   Complete 200000 origin guides.
+[INFO DRT-0026]   Complete 300000 origin guides.
+[INFO DRT-0026]   Complete 400000 origin guides.
+[INFO DRT-0028]   Complete active.
+[INFO DRT-0028]   Complete Fr_VIA.
+[INFO DRT-0028]   Complete metal1.
+[INFO DRT-0028]   Complete via1.
+[INFO DRT-0028]   Complete metal2.
+[INFO DRT-0028]   Complete via2.
+[INFO DRT-0028]   Complete metal3.
+[INFO DRT-0028]   Complete via3.
+[INFO DRT-0028]   Complete metal4.
+[INFO DRT-0028]   Complete via4.
+[INFO DRT-0028]   Complete metal5.
+[INFO DRT-0028]   Complete via5.
+[INFO DRT-0028]   Complete metal6.
+[INFO DRT-0028]   Complete via6.
+[INFO DRT-0028]   Complete metal7.
+[INFO DRT-0028]   Complete via7.
+[INFO DRT-0028]   Complete metal8.
+[INFO DRT-0028]   Complete via8.
+[INFO DRT-0028]   Complete metal9.
+[INFO DRT-0028]   Complete via9.
+[INFO DRT-0028]   Complete metal10.
+[INFO DRT-0028]   Complete hb_layer.
+[INFO DRT-0028]   Complete metal11.
+[INFO DRT-0028]   Complete via11.
+[INFO DRT-0028]   Complete metal12.
+[INFO DRT-0028]   Complete via12.
+[INFO DRT-0028]   Complete metal13.
+[INFO DRT-0028]   Complete via13.
+[INFO DRT-0028]   Complete metal14.
+[INFO DRT-0028]   Complete via14.
+[INFO DRT-0028]   Complete metal15.
+[INFO DRT-0028]   Complete via15.
+[INFO DRT-0028]   Complete metal16.
+[INFO DRT-0028]   Complete via16.
+[INFO DRT-0028]   Complete metal17.
+[INFO DRT-0028]   Complete via17.
+[INFO DRT-0028]   Complete metal18.
+[INFO DRT-0028]   Complete via18.
+[INFO DRT-0028]   Complete metal19.
+[INFO DRT-0028]   Complete via19.
+[INFO DRT-0028]   Complete metal20.
+[INFO DRT-0178] Init guide query.
+[INFO DRT-0035]   Complete active (guide).
+[INFO DRT-0035]   Complete Fr_VIA (guide).
+[INFO DRT-0035]   Complete metal1 (guide).
+[INFO DRT-0035]   Complete via1 (guide).
+[INFO DRT-0035]   Complete metal2 (guide).
+[INFO DRT-0035]   Complete via2 (guide).
+[INFO DRT-0035]   Complete metal3 (guide).
+[INFO DRT-0035]   Complete via3 (guide).
+[INFO DRT-0035]   Complete metal4 (guide).
+[INFO DRT-0035]   Complete via4 (guide).
+[INFO DRT-0035]   Complete metal5 (guide).
+[INFO DRT-0035]   Complete via5 (guide).
+[INFO DRT-0035]   Complete metal6 (guide).
+[INFO DRT-0035]   Complete via6 (guide).
+[INFO DRT-0035]   Complete metal7 (guide).
+[INFO DRT-0035]   Complete via7 (guide).
+[INFO DRT-0035]   Complete metal8 (guide).
+[INFO DRT-0035]   Complete via8 (guide).
+[INFO DRT-0035]   Complete metal9 (guide).
+[INFO DRT-0035]   Complete via9 (guide).
+[INFO DRT-0035]   Complete metal10 (guide).
+[INFO DRT-0035]   Complete hb_layer (guide).
+[INFO DRT-0035]   Complete metal11 (guide).
+[INFO DRT-0035]   Complete via11 (guide).
+[INFO DRT-0035]   Complete metal12 (guide).
+[INFO DRT-0035]   Complete via12 (guide).
+[INFO DRT-0035]   Complete metal13 (guide).
+[INFO DRT-0035]   Complete via13 (guide).
+[INFO DRT-0035]   Complete metal14 (guide).
+[INFO DRT-0035]   Complete via14 (guide).
+[INFO DRT-0035]   Complete metal15 (guide).
+[INFO DRT-0035]   Complete via15 (guide).
+[INFO DRT-0035]   Complete metal16 (guide).
+[INFO DRT-0035]   Complete via16 (guide).
+[INFO DRT-0035]   Complete metal17 (guide).
+[INFO DRT-0035]   Complete via17 (guide).
+[INFO DRT-0035]   Complete metal18 (guide).
+[INFO DRT-0035]   Complete via18 (guide).
+[INFO DRT-0035]   Complete metal19 (guide).
+[INFO DRT-0035]   Complete via19 (guide).
+[INFO DRT-0035]   Complete metal20 (guide).
+[INFO DRT-0036] active guide region query size = 0.
+[INFO DRT-0036] FR_VIA guide region query size = 0.
+[INFO DRT-0036] metal1 guide region query size = 43678.
+[INFO DRT-0036] via1 guide region query size = 0.
+[INFO DRT-0036] metal2 guide region query size = 34128.
+[INFO DRT-0036] via2 guide region query size = 0.
+[INFO DRT-0036] metal3 guide region query size = 18196.
+[INFO DRT-0036] via3 guide region query size = 0.
+[INFO DRT-0036] metal4 guide region query size = 6520.
+[INFO DRT-0036] via4 guide region query size = 0.
+[INFO DRT-0036] metal5 guide region query size = 6760.
+[INFO DRT-0036] via5 guide region query size = 0.
+[INFO DRT-0036] metal6 guide region query size = 6615.
+[INFO DRT-0036] via6 guide region query size = 0.
+[INFO DRT-0036] metal7 guide region query size = 5573.
+[INFO DRT-0036] via7 guide region query size = 0.
+[INFO DRT-0036] metal8 guide region query size = 5462.
+[INFO DRT-0036] via8 guide region query size = 0.
+[INFO DRT-0036] metal9 guide region query size = 5428.
+[INFO DRT-0036] via9 guide region query size = 0.
+[INFO DRT-0036] metal10 guide region query size = 5439.
+[INFO DRT-0036] hb_layer guide region query size = 0.
+[INFO DRT-0036] metal11 guide region query size = 5468.
+[INFO DRT-0036] via11 guide region query size = 0.
+[INFO DRT-0036] metal12 guide region query size = 5477.
+[INFO DRT-0036] via12 guide region query size = 0.
+[INFO DRT-0036] metal13 guide region query size = 5604.
+[INFO DRT-0036] via13 guide region query size = 0.
+[INFO DRT-0036] metal14 guide region query size = 5725.
+[INFO DRT-0036] via14 guide region query size = 0.
+[INFO DRT-0036] metal15 guide region query size = 6178.
+[INFO DRT-0036] via15 guide region query size = 0.
+[INFO DRT-0036] metal16 guide region query size = 6628.
+[INFO DRT-0036] via16 guide region query size = 0.
+[INFO DRT-0036] metal17 guide region query size = 7986.
+[INFO DRT-0036] via17 guide region query size = 0.
+[INFO DRT-0036] metal18 guide region query size = 12942.
+[INFO DRT-0036] via18 guide region query size = 0.
+[INFO DRT-0036] metal19 guide region query size = 43852.
+[INFO DRT-0036] via19 guide region query size = 0.
+[INFO DRT-0036] metal20 guide region query size = 8531.
+[INFO DRT-0179] Init gr pin query.
+[INFO DRT-0267] cpu time = 00:00:19, elapsed time = 00:00:06, memory = 420.18 (MB), peak = 420.18 (MB)
+[INFO DRT-0245] skipped writing guide updates to database.
+[INFO DRT-0185] Post process initialize RPin region query.
+[INFO DRT-0181] Start track assignment.
+[INFO DRT-0184] Done with 97467 vertical wires in 6 frboxes and 148723 horizontal wires in 4 frboxes.
+[INFO DRT-0186] Done with 32605 vertical wires in 6 frboxes and 49955 horizontal wires in 4 frboxes.
+[INFO DRT-0182] Complete track assignment.
+[INFO DRT-0267] cpu time = 00:00:28, elapsed time = 00:00:10, memory = 1186.38 (MB), peak = 1186.38 (MB)
+[INFO DRT-0187] Start routing data preparation.
+[INFO DRT-0267] cpu time = 00:00:00, elapsed time = 00:00:00, memory = 1327.75 (MB), peak = 1327.75 (MB)
+[INFO DRT-0194] Start detail routing.
+[INFO DRT-0195] Start 0th optimization iteration.
+    Completing 10% with 0 violations.
+    elapsed time = 00:00:06, memory = 4645.18 (MB).
+    Completing 20% with 0 violations.
+    elapsed time = 00:00:10, memory = 4503.86 (MB).
+    Completing 30% with 14190 violations.
+    elapsed time = 00:00:38, memory = 5605.38 (MB).
+    Completing 40% with 14190 violations.
+    elapsed time = 00:00:43, memory = 5856.48 (MB).
+    Completing 50% with 14190 violations.
+    elapsed time = 00:00:55, memory = 5619.05 (MB).
+    Completing 60% with 28503 violations.
+    elapsed time = 00:01:17, memory = 7285.33 (MB).
+    Completing 70% with 28503 violations.
+    elapsed time = 00:01:21, memory = 7261.54 (MB).
+    Completing 80% with 42118 violations.
+    elapsed time = 00:01:49, memory = 8843.22 (MB).
+    Completing 90% with 42118 violations.
+    elapsed time = 00:01:52, memory = 8772.51 (MB).
+    Completing 100% with 55635 violations.
+    elapsed time = 00:02:15, memory = 6276.72 (MB).
+[INFO DRT-0199]   Number of violations = 62128.
+Viol/Layer      metal1   via1 metal2   via2 metal3 metal4   via4 metal5   via5 metal6   via6 metal7   via7 metal8   via8 metal9   via9 me..10 hb..er me..11  via11 me..12  via12 me..13  via13 me..14  via14 me..15  via15 me..16  via16 me..17  via17 me..18  via18 me..19  via19 me..20
+Cut Spacing          0      3      0     17      0      0     34      0     23      0      1      0     13      0     24      0    739      0      0      0    499      0     12      0     34      0      0      0      8      0     60      0      0      0     45      0     73      0
+Metal Spacing      145      0    420      0     55      0      0      8      0      1      0      7      0      4      0     15      0   1257      0    557      0    134      0   1065      0     28      0    502      0     12      0    185      0    556      0  12413      0    273
+Min Width            0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      2      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0
+NS Metal             1      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0     14      0      0      0      6      0      1      0      0      0      0      0      0      0      0      0     10      0     10      0      2
+Recheck             38      0    710      0    365    176      0    178      0    250      0    287      0    173      0    221      0    170      0    162      0    210      0    243      0    255      0    342      0    190      0    417      0    573      0   1126      0    407
+Short              184      2   6243      1   1225     38      3    301      0     81      0    110      0     36      0    204      8    103      1    247      3     91      4    304      2     22      1    148      0     95      0    320      5   1501     26  21560    114   3384
+[INFO DRT-0267] cpu time = 01:36:51, elapsed time = 00:02:26, memory = 7038.04 (MB), peak = 8936.42 (MB)
+Total wire length = 2223142 um.
+Total wire length on LAYER metal1 = 1151 um.
+Total wire length on LAYER metal2 = 196706 um.
+Total wire length on LAYER metal3 = 248623 um.
+Total wire length on LAYER metal4 = 131892 um.
+Total wire length on LAYER metal5 = 359777 um.
+Total wire length on LAYER metal6 = 183586 um.
+Total wire length on LAYER metal7 = 90719 um.
+Total wire length on LAYER metal8 = 34669 um.
+Total wire length on LAYER metal9 = 33177 um.
+Total wire length on LAYER metal10 = 13987 um.
+Total wire length on LAYER metal11 = 18398 um.
+Total wire length on LAYER metal12 = 21761 um.
+Total wire length on LAYER metal13 = 65338 um.
+Total wire length on LAYER metal14 = 51070 um.
+Total wire length on LAYER metal15 = 175554 um.
+Total wire length on LAYER metal16 = 100072 um.
+Total wire length on LAYER metal17 = 151036 um.
+Total wire length on LAYER metal18 = 165713 um.
+Total wire length on LAYER metal19 = 89851 um.
+Total wire length on LAYER metal20 = 90051 um.
+Total number of vias = 323715.
+Up-via summary (total 323715):
+
+------------------
+  active         0
+  metal1     50927
+  metal2     58423
+  metal3      8039
+  metal4      6234
+  metal5      6248
+  metal6      5280
+  metal7      5106
+  metal8      5046
+  metal9      4966
+ metal10      1885
+ metal11      5018
+ metal12      5174
+ metal13      5727
+ metal14      5776
+ metal15      8026
+ metal16      7094
+ metal17     34005
+ metal18     33734
+ metal19     67007
+------------------
+            323715
+
+
+[INFO DRT-0195] Start 1st optimization iteration.
+    Completing 10% with 62128 violations.
+    elapsed time = 00:00:05, memory = 11490.29 (MB).
+    Completing 20% with 62128 violations.
+    elapsed time = 00:00:08, memory = 10528.97 (MB).
+    Completing 30% with 51606 violations.
+    elapsed time = 00:00:27, memory = 12394.31 (MB).
+    Completing 40% with 51606 violations.
+    elapsed time = 00:00:31, memory = 11444.38 (MB).
+    Completing 50% with 51606 violations.
+    elapsed time = 00:00:38, memory = 8455.01 (MB).
+    Completing 60% with 40311 violations.
+    elapsed time = 00:00:53, memory = 12166.28 (MB).
+    Completing 70% with 40311 violations.
+    elapsed time = 00:00:55, memory = 11199.96 (MB).
+    Completing 80% with 29554 violations.
+    elapsed time = 00:01:16, memory = 12715.22 (MB).
+    Completing 90% with 29554 violations.
+    elapsed time = 00:01:19, memory = 11850.45 (MB).
+    Completing 100% with 17271 violations.
+    elapsed time = 00:01:38, memory = 7507.32 (MB).
+[INFO DRT-0199]   Number of violations = 17272.
+Viol/Layer      metal1   via1 metal2   via2 metal3 metal4   via4 metal5   via5 metal6   via6 metal7   via7 metal8   via8 metal9   via9 me..10 me..11  via11 me..12  via12 me..13  via13 me..14 me..15  via15 me..16  via16 me..17 me..18  via18 me..19  via19 me..20
+Cut Spacing          0      2      0      8      0      0     21      0      7      0      1      0      2      0      4      0    262      0      0    141      0      2      0     11      0      0      1      0     11      0      0      4      0      3      0
+Metal Spacing       21      0    405      0     33      2      0      1      0      0      0      0      0      2      0      8      0    925    179      0     72      0    489      0     16    321      0      3      0     24    218      0   3476      0    159
+NS Metal             0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      4      0      0      9      0      0      0      0      0      0      0      0      0      0      0      1      0      0
+Recheck              0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0      0
+Short                9      0   2679      0    639      3      0     55      0      4      0      4      0      2      0     26      0     25     81      0     38      0    129      0      8    182      0     38      0     60    487      0   3877      1   2076
+[INFO DRT-0267] cpu time = 01:10:38, elapsed time = 00:01:47, memory = 7509.76 (MB), peak = 12763.99 (MB)
+Total wire length = 2219356 um.
+Total wire length on LAYER metal1 = 994 um.
+Total wire length on LAYER metal2 = 194880 um.
+Total wire length on LAYER metal3 = 248205 um.
+Total wire length on LAYER metal4 = 132366 um.
+Total wire length on LAYER metal5 = 359735 um.
+Total wire length on LAYER metal6 = 183758 um.
+Total wire length on LAYER metal7 = 90978 um.
+Total wire length on LAYER metal8 = 35135 um.
+Total wire length on LAYER metal9 = 33496 um.
+Total wire length on LAYER metal10 = 14308 um.
+Total wire length on LAYER metal11 = 17489 um.
+Total wire length on LAYER metal12 = 21344 um.
+Total wire length on LAYER metal13 = 63645 um.
+Total wire length on LAYER metal14 = 51161 um.
+Total wire length on LAYER metal15 = 178173 um.
+Total wire length on LAYER metal16 = 100965 um.
+Total wire length on LAYER metal17 = 158889 um.
+Total wire length on LAYER metal18 = 164791 um.
+Total wire length on LAYER metal19 = 80244 um.
+Total wire length on LAYER metal20 = 88791 um.
+Total number of vias = 316076.
+Up-via summary (total 316076):
+
+------------------
+  active         0
+  metal1     50627
+  metal2     58315
+  metal3      8200
+  metal4      6241
+  metal5      6299
+  metal6      5249
+  metal7      5106
+  metal8      5034
+  metal9      4910
+ metal10      1844
+ metal11      4996
+ metal12      5104
+ metal13      5766
+ metal14      5892
+ metal15      8858
+ metal16      7449
+ metal17     32055
+ metal18     29584
+ metal19     64547
+------------------
+            316076
+
+
+[INFO DRT-0195] Start 2nd optimization iteration.
+    Completing 10% with 17272 violations.
+    elapsed time = 00:00:03, memory = 12665.30 (MB).
+    Completing 20% with 17272 violations.
+    elapsed time = 00:00:07, memory = 11139.48 (MB).
+    Completing 30% with 16865 violations.
+    elapsed time = 00:00:24, memory = 12945.61 (MB).
+    Completing 40% with 16865 violations.
+    elapsed time = 00:00:25, memory = 12555.47 (MB).
+    Completing 50% with 16865 violations.
+    elapsed time = 00:00:41, memory = 7557.79 (MB).
+    Completing 60% with 16311 violations.
+    elapsed time = 00:00:47, memory = 12755.78 (MB).
+    Completing 70% with 16311 violations.
+    elapsed time = 00:00:50, memory = 11078.46 (MB).
+    Completing 80% with 15893 violations.
+    elapsed time = 00:01:08, memory = 13017.60 (MB).
+    Completing 90% with 15893 violations.
+    elapsed time = 00:01:10, memory = 12572.27 (MB).
+    Completing 100% with 15105 violations.
+    elapsed time = 00:01:27, memory = 7672.26 (MB).
+[INFO DRT-0199]   Number of violations = 15105.
+Viol/Layer      metal1   via1 metal2   via2 metal3 metal4   via4 metal5   via5 metal6 metal7   via7 metal8   via8 metal9   via9 me..10 me..11  via11 me..12  via12 me..13  via13 me..14 me..15 me..16  via16 me..17 me..18  via18 me..19  via19 me..20
+Cut Spacing          0      2      0     11      0      0     14      0     13      0      0      5      0      1      0    199      0      0     76      0      3      0      2      0      0      0      7      0      0      5      0      5      0
+Metal Spacing       21      0    416      0     37      3      0      4      0      2      1      0      0      0      7      0    896     65      0     74      0    316      0      8    280      0      0     20    174      0   3200      0    139
+NS Metal             0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      7      0      0      3      0      0      0      0      0      0      0      0      0      0      1      0      0
+Short                7      0   2393      1    552      2      0     46      0      6      4      0      4      0     23      2     24     26      0     22      0     71      0      1    137     28      0     60    386      0   3373      0   1920
+[INFO DRT-0267] cpu time = 01:02:32, elapsed time = 00:01:36, memory = 7677.95 (MB), peak = 13098.04 (MB)
+Total wire length = 2216750 um.
+Total wire length on LAYER metal1 = 932 um.
+Total wire length on LAYER metal2 = 194668 um.
+Total wire length on LAYER metal3 = 248163 um.
+Total wire length on LAYER metal4 = 132309 um.
+Total wire length on LAYER metal5 = 359693 um.
+Total wire length on LAYER metal6 = 183737 um.
+Total wire length on LAYER metal7 = 91117 um.
+Total wire length on LAYER metal8 = 34896 um.
+Total wire length on LAYER metal9 = 33320 um.
+Total wire length on LAYER metal10 = 14126 um.
+Total wire length on LAYER metal11 = 16824 um.
+Total wire length on LAYER metal12 = 20715 um.
+Total wire length on LAYER metal13 = 62365 um.
+Total wire length on LAYER metal14 = 51327 um.
+Total wire length on LAYER metal15 = 179517 um.
+Total wire length on LAYER metal16 = 100994 um.
+Total wire length on LAYER metal17 = 159578 um.
+Total wire length on LAYER metal18 = 164630 um.
+Total wire length on LAYER metal19 = 79291 um.
+Total wire length on LAYER metal20 = 88540 um.
+Total number of vias = 314406.
+Up-via summary (total 314406):
+
+------------------
+  active         0
+  metal1     50605
+  metal2     58263
+  metal3      8240
+  metal4      6232
+  metal5      6339
+  metal6      5201
+  metal7      5079
+  metal8      4994
+  metal9      4875
+ metal10      1792
+ metal11      4931
+ metal12      5032
+ metal13      5682
+ metal14      5794
+ metal15      9078
+ metal16      7427
+ metal17     31786
+ metal18     28989
+ metal19     64067
+------------------
+            314406
+
+
+[INFO DRT-0195] Start 3rd optimization iteration.
+    Completing 10% with 15105 violations.
+    elapsed time = 00:00:01, memory = 12759.84 (MB).
+    Completing 20% with 15105 violations.
+    elapsed time = 00:00:02, memory = 11505.66 (MB).
+    Completing 30% with 12034 violations.
+    elapsed time = 00:00:13, memory = 12628.45 (MB).
+    Completing 40% with 12034 violations.
+    elapsed time = 00:00:14, memory = 12814.51 (MB).
+    Completing 50% with 12034 violations.
+    elapsed time = 00:00:19, memory = 8799.61 (MB).
+    Completing 60% with 8825 violations.
+    elapsed time = 00:00:27, memory = 13012.90 (MB).
+    Completing 70% with 8825 violations.
+    elapsed time = 00:00:29, memory = 11534.27 (MB).
+    Completing 80% with 5440 violations.
+    elapsed time = 00:00:45, memory = 12931.62 (MB).
+    Completing 90% with 5440 violations.
+    elapsed time = 00:00:45, memory = 12779.67 (MB).
+    Completing 100% with 2172 violations.
+    elapsed time = 00:01:04, memory = 7791.89 (MB).
+[INFO DRT-0199]   Number of violations = 2176.
+Viol/Layer      metal1   via1 metal2   via2 metal3 metal4   via4 metal5 metal6   via7 metal9   via9 me..10 hb..er me..11  via11 me..12 me..13  via13 me..14 me..15  via15 me..16 me..18 me..19  via19 me..20
+Cut Spacing          0      1      0      2      0      0      2      0      0      1      0     46      0      1      0     17      0      0      1      0      0      1      0      0      0     10      0
+Metal Spacing        1      0     62      0     12      0      0      0      0      0      8      0    166      0     25      0     14     37      0      3     69      0      0     11    459      0     80
+NS Metal             0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      1      0      1
+Recheck              0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      0      4      0      0      0      0      0      0      0      0      0
+Short                7      0    165      0    115      3      0      3      1      0      0      0      6      0      8      0      2     21      0      3     56      0     37      8    282      0    424
+[INFO DRT-0267] cpu time = 00:29:11, elapsed time = 00:01:12, memory = 7795.14 (MB), peak = 13141.36 (MB)
+Total wire length = 2220037 um.
+Total wire length on LAYER metal1 = 905 um.
+Total wire length on LAYER metal2 = 190035 um.
+Total wire length on LAYER metal3 = 248060 um.
+Total wire length on LAYER metal4 = 136220 um.
+Total wire length on LAYER metal5 = 359939 um.
+Total wire length on LAYER metal6 = 184630 um.
+Total wire length on LAYER metal7 = 91675 um.
+Total wire length on LAYER metal8 = 34871 um.
+Total wire length on LAYER metal9 = 32494 um.
+Total wire length on LAYER metal10 = 14201 um.
+Total wire length on LAYER metal11 = 16925 um.
+Total wire length on LAYER metal12 = 20742 um.
+Total wire length on LAYER metal13 = 61820 um.
+Total wire length on LAYER metal14 = 51653 um.
+Total wire length on LAYER metal15 = 180340 um.
+Total wire length on LAYER metal16 = 101627 um.
+Total wire length on LAYER metal17 = 163930 um.
+Total wire length on LAYER metal18 = 164093 um.
+Total wire length on LAYER metal19 = 75829 um.
+Total wire length on LAYER metal20 = 90038 um.
+Total number of vias = 324931.
+Up-via summary (total 324931):
+
+------------------
+  active         0
+  metal1     50480
+  metal2     59158
+  metal3      9469
+  metal4      6396
+  metal5      6401
+  metal6      5203
+  metal7      5101
+  metal8      5029
+  metal9      4876
+ metal10      1826
+ metal11      4932
+ metal12      5033
+ metal13      5794
+ metal14      5876
+ metal15      9545
+ metal16      7681
+ metal17     33719
+ metal18     30314
+ metal19     68098
+------------------
+            324931
+
+
+[INFO DRT-0195] Start 4th optimization iteration.
+    Completing 10% with 2176 violations.
+    elapsed time = 00:00:00, memory = 7795.14 (MB).
+    Completing 20% with 2176 violations.
+    elapsed time = 00:00:00, memory = 7795.14 (MB).
+    Completing 30% with 1767 violations.
+    elapsed time = 00:00:07, memory = 7794.14 (MB).
+    Completing 40% with 1767 violations.
+    elapsed time = 00:00:07, memory = 7794.14 (MB).
+    Completing 50% with 1767 violations.
+    elapsed time = 00:00:09, memory = 8927.60 (MB).
+    Completing 60% with 1329 violations.
+    elapsed time = 00:00:17, memory = 7800.46 (MB).
+    Completing 70% with 1329 violations.
+    elapsed time = 00:00:17, memory = 7800.46 (MB).
+    Completing 80% with 898 violations.
+    elapsed time = 00:00:23, memory = 7799.45 (MB).
+    Completing 90% with 898 violations.
+    elapsed time = 00:00:23, memory = 7799.45 (MB).
+    Completing 100% with 529 violations.
+    elapsed time = 00:00:34, memory = 7802.62 (MB).
+[INFO DRT-0199]   Number of violations = 529.
+Viol/Layer      metal1 metal2 metal3 metal4   via5 metal9   via9 me..10 me..11  via11 me..12 me..13  via13 me..14 me..15 me..16 me..18 me..19  via19 me..20
+Cut Spacing          0      0      0      0      1      0      5      0      0      3      0      0      1      0      0      0      0      0      3      0
+Metal Spacing        2      2      1      0      0      2      0     30     16      0      4      8      0      0     16      0      1    249      0     22
+Short                1      9     16      1      0      0      0      0      1      0      0      5      0      3     45     18      0     16      0     48
+[INFO DRT-0267] cpu time = 00:09:27, elapsed time = 00:00:41, memory = 7802.62 (MB), peak = 13141.36 (MB)
+Total wire length = 2220394 um.
+Total wire length on LAYER metal1 = 909 um.
+Total wire length on LAYER metal2 = 189875 um.
+Total wire length on LAYER metal3 = 248051 um.
+Total wire length on LAYER metal4 = 136299 um.
+Total wire length on LAYER metal5 = 359952 um.
+Total wire length on LAYER metal6 = 184728 um.
+Total wire length on LAYER metal7 = 91715 um.
+Total wire length on LAYER metal8 = 34894 um.
+Total wire length on LAYER metal9 = 32443 um.
+Total wire length on LAYER metal10 = 14160 um.
+Total wire length on LAYER metal11 = 16910 um.
+Total wire length on LAYER metal12 = 20708 um.
+Total wire length on LAYER metal13 = 61805 um.
+Total wire length on LAYER metal14 = 51685 um.
+Total wire length on LAYER metal15 = 180498 um.
+Total wire length on LAYER metal16 = 101735 um.
+Total wire length on LAYER metal17 = 164116 um.
+Total wire length on LAYER metal18 = 164079 um.
+Total wire length on LAYER metal19 = 75686 um.
+Total wire length on LAYER metal20 = 90135 um.
+Total number of vias = 325422.
+Up-via summary (total 325422):
+
+------------------
+  active         0
+  metal1     50468
+  metal2     59175
+  metal3      9485
+  metal4      6404
+  metal5      6414
+  metal6      5208
+  metal7      5101
+  metal8      5031
+  metal9      4876
+ metal10      1822
+ metal11      4932
+ metal12      5033
+ metal13      5820
+ metal14      5886
+ metal15      9608
+ metal16      7701
+ metal17     33717
+ metal18     30352
+ metal19     68389
+------------------
+            325422
+
+
+[INFO DRT-0195] Start 5th optimization iteration.
+    Completing 10% with 529 violations.
+    elapsed time = 00:00:00, memory = 7802.62 (MB).
+    Completing 20% with 529 violations.
+    elapsed time = 00:00:00, memory = 7802.62 (MB).
+    Completing 30% with 492 violations.
+    elapsed time = 00:00:09, memory = 7801.11 (MB).
+    Completing 40% with 492 violations.
+    elapsed time = 00:00:09, memory = 7801.11 (MB).
+    Completing 50% with 492 violations.
+    elapsed time = 00:00:11, memory = 8812.92 (MB).
+    Completing 60% with 412 violations.
+    elapsed time = 00:00:19, memory = 7797.94 (MB).
+    Completing 70% with 412 violations.
+    elapsed time = 00:00:19, memory = 7797.94 (MB).
+    Completing 80% with 372 violations.
+    elapsed time = 00:00:24, memory = 7797.70 (MB).
+    Completing 90% with 372 violations.
+    elapsed time = 00:00:24, memory = 7797.70 (MB).
+    Completing 100% with 318 violations.
+    elapsed time = 00:00:34, memory = 7798.01 (MB).
+[INFO DRT-0199]   Number of violations = 318.
+Viol/Layer        via9 me..10 me..11 me..12 me..13 me..15 me..16 me..19 me..20
+Cut Spacing          2      0      0      0      0      0      0      0      0
+Metal Spacing        0      9      9      1      1      6      0    221      6
+Short                0      0      1      0      0     14     18     12     18
+[INFO DRT-0267] cpu time = 00:04:44, elapsed time = 00:00:41, memory = 7798.01 (MB), peak = 13141.36 (MB)
+Total wire length = 2220509 um.
+Total wire length on LAYER metal1 = 906 um.
+Total wire length on LAYER metal2 = 189864 um.
+Total wire length on LAYER metal3 = 248026 um.
+Total wire length on LAYER metal4 = 136311 um.
+Total wire length on LAYER metal5 = 359953 um.
+Total wire length on LAYER metal6 = 184744 um.
+Total wire length on LAYER metal7 = 91732 um.
+Total wire length on LAYER metal8 = 34910 um.
+Total wire length on LAYER metal9 = 32432 um.
+Total wire length on LAYER metal10 = 14168 um.
+Total wire length on LAYER metal11 = 16874 um.
+Total wire length on LAYER metal12 = 20727 um.
+Total wire length on LAYER metal13 = 61763 um.
+Total wire length on LAYER metal14 = 51717 um.
+Total wire length on LAYER metal15 = 180546 um.
+Total wire length on LAYER metal16 = 101760 um.
+Total wire length on LAYER metal17 = 164137 um.
+Total wire length on LAYER metal18 = 164008 um.
+Total wire length on LAYER metal19 = 75691 um.
+Total wire length on LAYER metal20 = 90231 um.
+Total number of vias = 325499.
+Up-via summary (total 325499):
+
+------------------
+  active         0
+  metal1     50465
+  metal2     59163
+  metal3      9486
+  metal4      6409
+  metal5      6410
+  metal6      5207
+  metal7      5101
+  metal8      5029
+  metal9      4876
+ metal10      1826
+ metal11      4932
+ metal12      5031
+ metal13      5817
+ metal14      5881
+ metal15      9676
+ metal16      7721
+ metal17     33722
+ metal18     30332
+ metal19     68415
+------------------
+            325499
+
+
+[INFO DRT-0198] Complete detail routing.
+Total wire length = 2220509 um.
+Total wire length on LAYER metal1 = 906 um.
+Total wire length on LAYER metal2 = 189864 um.
+Total wire length on LAYER metal3 = 248026 um.
+Total wire length on LAYER metal4 = 136311 um.
+Total wire length on LAYER metal5 = 359953 um.
+Total wire length on LAYER metal6 = 184744 um.
+Total wire length on LAYER metal7 = 91732 um.
+Total wire length on LAYER metal8 = 34910 um.
+Total wire length on LAYER metal9 = 32432 um.
+Total wire length on LAYER metal10 = 14168 um.
+Total wire length on LAYER metal11 = 16874 um.
+Total wire length on LAYER metal12 = 20727 um.
+Total wire length on LAYER metal13 = 61763 um.
+Total wire length on LAYER metal14 = 51717 um.
+Total wire length on LAYER metal15 = 180546 um.
+Total wire length on LAYER metal16 = 101760 um.
+Total wire length on LAYER metal17 = 164137 um.
+Total wire length on LAYER metal18 = 164008 um.
+Total wire length on LAYER metal19 = 75691 um.
+Total wire length on LAYER metal20 = 90231 um.
+Total number of vias = 325499.
+Up-via summary (total 325499):
+
+------------------
+  active         0
+  metal1     50465
+  metal2     59163
+  metal3      9486
+  metal4      6409
+  metal5      6410
+  metal6      5207
+  metal7      5101
+  metal8      5029
+  metal9      4876
+ metal10      1826
+ metal11      4932
+ metal12      5031
+ metal13      5817
+ metal14      5881
+ metal15      9676
+ metal16      7721
+ metal17     33722
+ metal18     30332
+ metal19     68415
+------------------
+            325499
+
+
+[INFO DRT-0267] cpu time = 04:33:25, elapsed time = 00:08:26, memory = 7798.01 (MB), peak = 13141.36 (MB)
+
+[INFO DRT-0180] Post processing.
+Elapsed time: 8:59.01[h:]min:sec. CPU time: user 16907.28 sys 132.32 (3161%). Peak memory: 13456748KB.

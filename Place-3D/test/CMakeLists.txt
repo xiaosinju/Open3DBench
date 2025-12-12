@@ -53,3 +53,11 @@ DIRECTORY or_3D_tiling DESTINATION ${PROJECT_NAME}
 install(
 DIRECTORY or_2D_stage2 DESTINATION ${PROJECT_NAME}
 )
+
+install(
+DIRECTORY convert_file_default DESTINATION ${PROJECT_NAME}
+)
+
+install(
+DIRECTORY convert_file_inflated DESTINATION ${PROJECT_NAME}
+)

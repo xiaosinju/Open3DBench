@@ -86,4 +86,5 @@ repair_tie_fanout -separation $tie_separation $tiehi_pin
 
 if {![info exists save_checkpoint] || $save_checkpoint} {
   write_db $::env(RESULTS_DIR)/3_4_place_resized.odb
+  write_def $::env(RESULTS_DIR)/3_4_place_resized.def
 }

@@ -1,0 +1,954 @@
+violation type: Metal Spacing
+	srcs: net:N33471_TOP
+	bbox = (248.1700, 378.3600) - (248.1800, 378.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33382_TOP
+	bbox = (260.7100, 367.1600) - (260.7200, 367.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33334_TOP
+	bbox = (262.2300, 371.3600) - (262.2400, 371.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33411_TOP
+	bbox = (256.3400, 374.1600) - (256.3500, 374.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33376_TOP
+	bbox = (250.8300, 378.3600) - (250.8400, 378.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33411_TOP
+	bbox = (254.1350, 377.0250) - (254.1800, 377.2650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N16496_BOT
+	bbox = (234.1000, 246.3000) - (234.8950, 247.2000) on Layer metal10
+violation type: Metal Spacing
+	srcs: net:N15466_TOP net:N20716_TOP
+	bbox = (269.9000, 247.2000) - (270.0950, 247.4000) on Layer metal12
+violation type: Metal Spacing
+	srcs: net:N33321_TOP
+	bbox = (188.1300, 220.1600) - (188.1400, 220.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33393_TOP
+	bbox = (235.4400, 165.5600) - (235.4500, 165.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33354_TOP
+	bbox = (240.7600, 165.5600) - (240.7700, 165.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33433_TOP
+	bbox = (236.9600, 166.9600) - (236.9700, 167.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33452_TOP
+	bbox = (238.1000, 250.9600) - (238.1100, 251.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33509_TOP
+	bbox = (240.7600, 250.9600) - (240.7700, 251.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33408_TOP
+	bbox = (243.6100, 250.9600) - (243.6200, 251.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33408_TOP
+	bbox = (240.7600, 255.1600) - (240.7700, 255.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33469_TOP
+	bbox = (247.4100, 369.9600) - (247.4200, 370.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N16620_BOT net:N16900_BOT
+	bbox = (273.1000, 247.2000) - (274.1000, 247.6700) on Layer metal10
+violation type: Metal Spacing
+	srcs: net:N33482_TOP
+	bbox = (267.1700, 257.9600) - (267.1800, 258.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33298_TOP
+	bbox = (267.5500, 259.3600) - (267.5600, 259.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N16392_TOP net:icache_1/_05980_
+	bbox = (266.8400, 258.3000) - (266.8900, 258.3350) on Layer metal20
+violation type: Metal Spacing
+	srcs: net:N16392_TOP net:icache_1/_05980_
+	bbox = (266.8400, 258.3000) - (266.9100, 258.3350) on Layer metal20
+violation type: Metal Spacing
+	srcs: net:N33228_TOP net:N33386_TOP
+	bbox = (266.6300, 256.8300) - (266.7000, 256.8650) on Layer metal20
+violation type: Metal Spacing
+	srcs: net:N33491_TOP
+	bbox = (231.8300, 158.5600) - (231.8400, 158.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:cce_lce_data_cmd_i[256] net:N16542_BOT
+	bbox = (255.6950, 215.0000) - (256.4950, 215.6700) on Layer metal10
+violation type: Metal Spacing
+	srcs: net:cce_lce_data_cmd_i[256] net:N16542_BOT
+	bbox = (255.0700, 215.2000) - (255.6950, 215.6700) on Layer metal10
+violation type: Metal Spacing
+	srcs: net:cce_lce_data_cmd_i[256] net:N16542_TOP
+	bbox = (255.0700, 215.2000) - (255.6950, 215.6700) on Layer metal11
+violation type: Metal Spacing
+	srcs: net:N33427_TOP
+	bbox = (255.3900, 210.3600) - (255.4000, 210.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33507_TOP
+	bbox = (192.1200, 221.5600) - (192.1300, 221.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33350_TOP
+	bbox = (197.6300, 227.1600) - (197.6400, 227.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33345_TOP
+	bbox = (251.4000, 162.7600) - (251.4100, 162.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33303_TOP
+	bbox = (255.0100, 162.7600) - (255.0200, 162.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33396_TOP
+	bbox = (255.2000, 164.1600) - (255.2100, 164.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33493_TOP
+	bbox = (258.0500, 166.9600) - (258.0600, 167.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33400_TOP
+	bbox = (153.3600, 201.9600) - (153.3700, 202.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33445_TOP
+	bbox = (149.1800, 204.7600) - (149.1900, 204.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33503_TOP
+	bbox = (152.7900, 211.7600) - (152.8000, 211.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33366_TOP
+	bbox = (151.8400, 214.5600) - (151.8500, 214.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33445_TOP
+	bbox = (154.5000, 214.5600) - (154.5100, 214.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33503_TOP
+	bbox = (152.7900, 215.9600) - (152.8000, 216.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33505_TOP
+	bbox = (186.6100, 183.7600) - (186.6200, 183.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33367_TOP
+	bbox = (186.4200, 185.1600) - (186.4300, 185.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33419_TOP
+	bbox = (180.7200, 238.3600) - (180.7300, 238.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33327_TOP
+	bbox = (183.9500, 238.3600) - (183.9600, 238.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33478_TOP
+	bbox = (184.9000, 239.7600) - (184.9100, 239.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33371_TOP
+	bbox = (186.2300, 262.1600) - (186.2400, 262.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33391_TOP
+	bbox = (202.1900, 206.1600) - (202.2000, 206.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33349_TOP
+	bbox = (213.7800, 213.1600) - (213.7900, 213.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33392_TOP
+	bbox = (209.0300, 243.9600) - (209.0400, 244.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33385_TOP
+	bbox = (215.3000, 319.5600) - (215.3100, 319.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33343_TOP
+	bbox = (241.9000, 172.5600) - (241.9100, 172.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33422_TOP
+	bbox = (243.8000, 185.1600) - (243.8100, 185.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33389_TOP
+	bbox = (245.8900, 204.7600) - (245.9000, 204.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33288_TOP
+	bbox = (243.4200, 260.7600) - (243.4300, 260.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33398_TOP
+	bbox = (245.3200, 319.5600) - (245.3300, 319.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33416_TOP
+	bbox = (237.9100, 350.3600) - (237.9200, 350.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33339_TOP
+	bbox = (240.5700, 350.3600) - (240.5800, 350.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33338_TOP
+	bbox = (231.6400, 354.5600) - (231.6500, 354.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33385_TOP
+	bbox = (241.9000, 354.5600) - (241.9100, 354.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33383_TOP
+	bbox = (238.1000, 358.7600) - (238.1100, 358.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33416_TOP
+	bbox = (242.2800, 358.7600) - (242.2900, 358.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33413_TOP
+	bbox = (244.5600, 378.3600) - (244.5700, 378.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:cce_lce_data_cmd_i[460] net:N16420_TOP
+	bbox = (270.0000, 173.2700) - (270.9000, 174.0500) on Layer metal11
+violation type: Metal Spacing
+	srcs: net:cce_lce_data_cmd_i[460] net:N16420_TOP
+	bbox = (270.3800, 173.2700) - (270.9000, 174.0500) on Layer metal11
+violation type: Metal Spacing
+	srcs: net:N33417_TOP
+	bbox = (267.3600, 267.7600) - (267.3700, 267.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33420_TOP
+	bbox = (302.3200, 262.1600) - (302.3300, 262.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33479_TOP
+	bbox = (295.6700, 263.5600) - (295.6800, 263.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33417_TOP
+	bbox = (295.2900, 264.9600) - (295.3000, 265.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33420_TOP
+	bbox = (301.7500, 264.9600) - (301.7600, 265.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33417_TOP
+	bbox = (295.4800, 266.3600) - (295.4900, 266.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33497_TOP
+	bbox = (325.6900, 263.5600) - (325.7000, 263.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33494_TOP
+	bbox = (384.9700, 262.1600) - (384.9800, 262.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33326_TOP
+	bbox = (149.3700, 194.9600) - (149.3800, 195.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33503_TOP
+	bbox = (153.9300, 197.7600) - (153.9400, 197.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33367_TOP
+	bbox = (186.2300, 192.1600) - (186.2400, 192.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33447_TOP
+	bbox = (186.4200, 194.9600) - (186.4300, 195.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:icache_1/_04869_ net:icache_1/data_set_select_mux.data_i\[443\]
+	bbox = (204.8700, 102.9000) - (204.9750, 102.9650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:icache_1/_04869_ net:icache_1/data_set_select_mux.data_i\[443\]
+	bbox = (204.9050, 102.9000) - (204.9750, 102.9650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:icache_1/data_mem_bank_data_lo\[379\] net:icache_1/data_set_select_mux.data_i\[368\]
+	bbox = (213.0400, 127.9750) - (213.1100, 127.9950) on Layer metal20
+violation type: Metal Spacing
+	srcs: net:icache_1/data_mem_bank_data_lo\[379\] net:icache_1/data_set_select_mux.data_i\[368\]
+	bbox = (213.0400, 127.9750) - (213.1200, 127.9950) on Layer metal20
+violation type: Metal Spacing
+	srcs: net:N33350_TOP
+	bbox = (202.3800, 196.3600) - (202.3900, 196.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33487_TOP
+	bbox = (210.9300, 228.5600) - (210.9400, 228.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33261_TOP
+	bbox = (208.0800, 249.5600) - (208.0900, 249.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33489_TOP
+	bbox = (213.4000, 249.5600) - (213.4100, 249.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33489_TOP
+	bbox = (209.2200, 250.9600) - (209.2300, 251.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N11486_TOP
+	bbox = (210.9300, 309.7600) - (210.9400, 309.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33385_TOP
+	bbox = (213.5900, 309.7600) - (213.6000, 309.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N34064_TOP
+	bbox = (209.2200, 312.5600) - (209.2300, 312.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33385_TOP
+	bbox = (213.2100, 312.5600) - (213.2200, 312.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N34064_TOP
+	bbox = (214.1600, 313.9600) - (214.1700, 314.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:icache_1/_08964_ net:icache_1/_08966_
+	bbox = (241.1150, 23.1000) - (241.2400, 23.1650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N10803_TOP
+	bbox = (244.1800, 99.7600) - (244.1900, 99.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33346_TOP
+	bbox = (243.2300, 194.9600) - (243.2400, 195.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33387_TOP
+	bbox = (243.0400, 197.7600) - (243.0500, 197.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33346_TOP
+	bbox = (240.3800, 199.1600) - (240.3900, 199.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33425_TOP
+	bbox = (242.2800, 200.5600) - (242.2900, 200.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33361_TOP
+	bbox = (243.0400, 285.9600) - (243.0500, 286.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33500_TOP
+	bbox = (231.6400, 288.7600) - (231.6500, 288.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33500_TOP
+	bbox = (234.3000, 288.7600) - (234.3100, 288.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33374_TOP
+	bbox = (231.8300, 364.3600) - (231.8400, 364.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33383_TOP
+	bbox = (231.8300, 367.1600) - (231.8400, 367.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33331_TOP
+	bbox = (235.8200, 371.3600) - (235.8300, 371.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33436_TOP
+	bbox = (264.7000, 131.9600) - (264.7100, 132.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N17229_BOT net:N23707_BOT
+	bbox = (262.9000, 166.0700) - (263.6950, 167.0000) on Layer metal10
+violation type: Metal Spacing
+	srcs: net:N17229_BOT net:N23707_BOT
+	bbox = (262.9000, 166.3000) - (263.6950, 167.0000) on Layer metal10
+violation type: Metal Spacing
+	srcs: net:N17229_BOT net:N23707_BOT
+	bbox = (262.9000, 166.2000) - (263.6950, 167.0000) on Layer metal10
+violation type: Metal Spacing
+	srcs: net:cce_lce_data_cmd_i[460] net:N17229_TOP
+	bbox = (265.2100, 167.2000) - (265.8000, 167.6700) on Layer metal11
+violation type: Metal Spacing
+	srcs: net:cce_lce_data_cmd_i[460] net:N17229_TOP
+	bbox = (265.2950, 167.2000) - (265.8000, 167.6700) on Layer metal11
+violation type: Metal Spacing
+	srcs: net:N16865_TOP
+	bbox = (268.6950, 170.2300) - (268.8700, 170.2400) on Layer metal15
+violation type: Metal Spacing
+	srcs: net:N17089_TOP
+	bbox = (266.8950, 226.8700) - (267.4950, 227.0700) on Layer metal13
+violation type: Metal Spacing
+	srcs: net:lce_cce_data_resp_o[192] net:lce_cce_data_resp_o[353]
+	bbox = (265.1850, 217.7400) - (265.3250, 217.8400) on Layer metal15
+violation type: Metal Spacing
+	srcs: net:lce_cce_data_resp_o[192] net:lce_cce_data_resp_o[353]
+	bbox = (264.5300, 217.7400) - (264.6700, 217.8400) on Layer metal15
+violation type: Metal Spacing
+	srcs: net:lce_cce_data_resp_o[192] net:lce_cce_data_resp_o[353]
+	bbox = (264.4850, 217.7400) - (264.5300, 217.8400) on Layer metal15
+violation type: Metal Spacing
+	srcs: net:lce_cce_data_resp_o[192] net:lce_cce_data_resp_o[353]
+	bbox = (264.5300, 217.7400) - (265.3250, 217.8400) on Layer metal15
+violation type: Metal Spacing
+	srcs: net:N33538_TOP net:icache_1/data_mem_bank_data_lo\[342\]
+	bbox = (264.5300, 216.3700) - (264.7650, 216.4400) on Layer metal15
+violation type: Metal Spacing
+	srcs: net:N11800_BOT
+	bbox = (273.2950, 282.0700) - (273.9500, 282.2000) on Layer metal10
+violation type: Metal Spacing
+	srcs: net:N11800_BOT
+	bbox = (273.0500, 282.0700) - (273.9500, 282.2000) on Layer metal10
+violation type: Metal Spacing
+	srcs: net:N33375_TOP
+	bbox = (261.6600, 343.3600) - (261.6700, 343.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33342_TOP
+	bbox = (290.1600, 256.5600) - (290.1700, 256.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33355_TOP
+	bbox = (381.7400, 259.3600) - (381.7500, 259.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:bp_fe_pc_gen_1/_0301_ net:bp_fe_pc_gen_1/_1938_
+	bbox = (82.1100, 205.1000) - (82.2100, 205.1650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:icache_1/lce/_06021_ net:icache_1/lce/lce_data_cmd_fifo.full_r
+	bbox = (104.1500, 214.9000) - (104.2500, 214.9650) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33504_TOP
+	bbox = (164.3800, 183.7600) - (164.3900, 183.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33401_TOP
+	bbox = (164.1900, 186.5600) - (164.2000, 186.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33446_TOP
+	bbox = (166.8500, 186.5600) - (166.8600, 186.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:icache_1/_05073_
+	bbox = (190.0300, 144.5600) - (190.0400, 144.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33505_TOP
+	bbox = (190.0300, 185.1600) - (190.0400, 185.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33428_TOP
+	bbox = (197.4400, 201.9600) - (197.4500, 202.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33391_TOP
+	bbox = (197.6300, 203.3600) - (197.6400, 203.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33448_TOP
+	bbox = (190.7900, 214.5600) - (190.8000, 214.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33448_TOP
+	bbox = (193.4500, 214.5600) - (193.4600, 214.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33507_TOP
+	bbox = (197.6300, 215.9600) - (197.6400, 216.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33431_TOP
+	bbox = (198.0100, 234.1600) - (198.0200, 234.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33488_TOP
+	bbox = (197.6300, 235.5600) - (197.6400, 235.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33431_TOP
+	bbox = (197.8200, 238.3600) - (197.8300, 238.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33478_TOP
+	bbox = (186.8000, 243.9600) - (186.8100, 244.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33404_TOP
+	bbox = (191.3600, 267.7600) - (191.3700, 267.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33510_TOP
+	bbox = (198.0100, 270.5600) - (198.0200, 270.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33404_TOP
+	bbox = (195.9200, 271.9600) - (195.9300, 272.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33456_TOP
+	bbox = (201.8100, 333.5600) - (201.8200, 333.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33409_TOP
+	bbox = (200.4800, 348.9600) - (200.4900, 349.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33348_TOP
+	bbox = (229.1700, 172.5600) - (229.1800, 172.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33305_TOP
+	bbox = (221.3800, 182.3600) - (221.3900, 182.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33426_TOP
+	bbox = (216.8200, 185.1600) - (216.8300, 185.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33485_TOP
+	bbox = (218.7200, 186.5600) - (218.7300, 186.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33233_TOP
+	bbox = (219.6700, 210.3600) - (219.6800, 210.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33390_TOP
+	bbox = (219.2900, 211.7600) - (219.3000, 211.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33487_TOP
+	bbox = (216.4400, 213.1600) - (216.4500, 213.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33317_TOP
+	bbox = (217.3900, 232.7600) - (217.4000, 232.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33402_TOP
+	bbox = (220.4300, 290.1600) - (220.4400, 290.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33455_TOP
+	bbox = (223.8500, 327.9600) - (223.8600, 328.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33409_TOP
+	bbox = (226.5100, 327.9600) - (226.5200, 328.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33409_TOP
+	bbox = (219.4800, 330.7600) - (219.4900, 330.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33455_TOP
+	bbox = (224.8000, 330.7600) - (224.8100, 330.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33383_TOP
+	bbox = (224.0400, 350.3600) - (224.0500, 350.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33383_TOP
+	bbox = (225.7500, 353.1600) - (225.7600, 353.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33415_TOP
+	bbox = (231.0700, 353.1600) - (231.0800, 353.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33383_TOP
+	bbox = (229.7400, 358.7600) - (229.7500, 358.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33469_TOP
+	bbox = (230.8800, 361.5600) - (230.8900, 361.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33480_TOP
+	bbox = (246.6500, 173.9600) - (246.6600, 174.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33387_TOP
+	bbox = (251.9700, 183.7600) - (251.9800, 183.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33343_TOP
+	bbox = (254.6300, 183.7600) - (254.6400, 183.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33422_TOP
+	bbox = (248.7400, 185.1600) - (248.7500, 185.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33422_TOP
+	bbox = (251.4000, 185.1600) - (251.4100, 185.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33449_TOP
+	bbox = (258.0500, 235.5600) - (258.0600, 235.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33323_TOP
+	bbox = (255.2000, 241.1600) - (255.2100, 241.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33397_TOP
+	bbox = (253.1100, 262.1600) - (253.1200, 262.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33310_TOP
+	bbox = (255.9600, 263.5600) - (255.9700, 263.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33438_TOP
+	bbox = (252.3500, 266.3600) - (252.3600, 266.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33397_TOP
+	bbox = (248.9300, 298.5600) - (248.9400, 298.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33358_TOP
+	bbox = (257.4800, 298.5600) - (257.4900, 298.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33397_TOP
+	bbox = (248.9300, 301.3600) - (248.9400, 301.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33397_TOP
+	bbox = (246.4600, 302.7600) - (246.4700, 302.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33398_TOP
+	bbox = (248.9300, 304.1600) - (248.9400, 304.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33490_TOP
+	bbox = (254.8200, 319.5600) - (254.8300, 319.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33439_TOP
+	bbox = (250.0700, 322.3600) - (250.0800, 322.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33490_TOP
+	bbox = (251.2100, 325.1600) - (251.2200, 325.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33398_TOP
+	bbox = (253.8700, 325.1600) - (253.8800, 325.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33385_TOP
+	bbox = (251.0200, 330.7600) - (251.0300, 330.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33257_TOP
+	bbox = (253.6800, 330.7600) - (253.6900, 330.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33416_TOP
+	bbox = (253.8700, 332.1600) - (253.8800, 332.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N16967_TOP net:N33885_TOP
+	bbox = (279.6950, 233.5000) - (280.0800, 234.2000) on Layer metal11
+violation type: Metal Spacing
+	srcs: net:N33396_TOP
+	bbox = (278.1900, 260.7600) - (278.2000, 260.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33356_TOP
+	bbox = (284.6500, 260.7600) - (284.6600, 260.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33405_TOP
+	bbox = (278.3800, 264.9600) - (278.3900, 265.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:cce_lce_data_cmd_i[19]
+	bbox = (334.8950, 1.2700) - (335.6000, 3.6700) on Layer metal11
+violation type: Metal Spacing
+	srcs: net:cce_lce_data_cmd_i[19]
+	bbox = (334.8950, 1.2700) - (335.6000, 2.0700) on Layer metal11
+violation type: Metal Spacing
+	srcs: net:bp_fe_pc_gen_1/genblk1_branch_prediction_1/btb_1/_0912_
+	bbox = (83.6300, 309.7600) - (83.6400, 309.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:net2646
+	bbox = (77.9300, 344.7600) - (77.9400, 344.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33503_TOP
+	bbox = (137.7800, 218.7600) - (137.7900, 218.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33504_TOP
+	bbox = (165.1400, 189.3600) - (165.1500, 189.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33401_TOP
+	bbox = (164.0000, 190.7600) - (164.0100, 190.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N10803_TOP
+	bbox = (190.7900, 101.1600) - (190.8000, 101.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33391_TOP
+	bbox = (197.8200, 192.1600) - (197.8300, 192.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33447_TOP
+	bbox = (189.4600, 193.5600) - (189.4700, 193.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33350_TOP
+	bbox = (196.1100, 194.9600) - (196.1200, 195.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33391_TOP
+	bbox = (194.7800, 197.7600) - (194.7900, 197.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33487_TOP
+	bbox = (197.6300, 197.7600) - (197.6400, 197.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33280_TOP
+	bbox = (200.2900, 197.7600) - (200.3000, 197.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33409_TOP
+	bbox = (200.4800, 337.7600) - (200.4900, 337.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33409_TOP
+	bbox = (197.0600, 340.5600) - (197.0700, 340.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33249_TOP
+	bbox = (201.0500, 346.1600) - (201.0600, 346.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33033_BOT net:N33033_TOP
+	bbox = (223.0200, 110.2000) - (223.6950, 110.8700) on Layer metal11
+violation type: Metal Spacing
+	srcs: net:N33308_TOP
+	bbox = (229.9300, 165.5600) - (229.9400, 165.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33491_TOP
+	bbox = (225.7500, 168.3600) - (225.7600, 168.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33393_TOP
+	bbox = (228.4100, 168.3600) - (228.4200, 168.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33354_TOP
+	bbox = (231.0700, 168.3600) - (231.0800, 168.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33485_TOP
+	bbox = (216.6300, 189.3600) - (216.6400, 189.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33390_TOP
+	bbox = (219.2900, 189.3600) - (219.3000, 189.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33390_TOP
+	bbox = (221.5700, 190.7600) - (221.5800, 190.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33390_TOP
+	bbox = (219.4800, 217.3600) - (219.4900, 217.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33352_TOP
+	bbox = (219.2900, 229.9600) - (219.3000, 230.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33402_TOP
+	bbox = (220.4300, 283.1600) - (220.4400, 283.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33319_TOP
+	bbox = (227.8400, 283.1600) - (227.8500, 283.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33442_TOP
+	bbox = (226.8900, 284.5600) - (226.9000, 284.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33319_TOP
+	bbox = (224.8000, 285.9600) - (224.8100, 286.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33502_TOP
+	bbox = (217.5800, 287.3600) - (217.5900, 287.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33399_TOP
+	bbox = (226.7000, 287.3600) - (226.7100, 287.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33369_TOP
+	bbox = (219.1000, 288.7600) - (219.1100, 288.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33244_TOP
+	bbox = (224.6100, 288.7600) - (224.6200, 288.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33444_TOP
+	bbox = (224.8300, 281.7850) - (224.9900, 281.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33444_TOP
+	bbox = (224.9200, 281.7850) - (224.9900, 281.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33415_TOP
+	bbox = (226.3200, 346.1600) - (226.3300, 346.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33293_TOP
+	bbox = (229.1700, 347.5600) - (229.1800, 347.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33493_TOP
+	bbox = (255.0100, 136.1600) - (255.0200, 136.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33493_TOP
+	bbox = (256.3400, 138.9600) - (256.3500, 139.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33356_TOP net:N33493_TOP
+	bbox = (257.1300, 135.1000) - (257.2000, 135.1350) on Layer metal20
+violation type: Metal Spacing
+	srcs: net:N33388_TOP
+	bbox = (256.9100, 190.7600) - (256.9200, 190.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33345_TOP
+	bbox = (252.7300, 192.1600) - (252.7400, 192.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33347_TOP
+	bbox = (254.8200, 193.5600) - (254.8300, 193.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33388_TOP
+	bbox = (251.4000, 194.9600) - (251.4100, 195.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33424_TOP
+	bbox = (248.3600, 196.3600) - (248.3700, 196.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33492_TOP
+	bbox = (246.8400, 199.1600) - (246.8500, 199.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33492_TOP
+	bbox = (249.8800, 218.7600) - (249.8900, 218.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33423_TOP
+	bbox = (252.5400, 218.7600) - (252.5500, 218.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33452_TOP
+	bbox = (247.7900, 256.5600) - (247.8000, 256.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33396_TOP
+	bbox = (259.0000, 257.9600) - (259.0100, 258.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33432_TOP
+	bbox = (257.2900, 309.7600) - (257.3000, 309.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33398_TOP
+	bbox = (254.2500, 311.1600) - (254.2600, 311.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33499_TOP
+	bbox = (256.9100, 311.1600) - (256.9200, 311.2250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33359_TOP
+	bbox = (259.7600, 312.5600) - (259.7700, 312.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33398_TOP
+	bbox = (254.2500, 313.9600) - (254.2600, 314.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33313_TOP
+	bbox = (255.0100, 315.3600) - (255.0200, 315.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33359_TOP
+	bbox = (245.5100, 316.7600) - (245.5200, 316.8250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N34064_TOP
+	bbox = (250.8300, 336.3600) - (250.8400, 336.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33385_TOP
+	bbox = (253.4900, 336.3600) - (253.5000, 336.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33294_TOP
+	bbox = (255.5800, 340.5600) - (255.5900, 340.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33381_TOP
+	bbox = (253.1100, 347.5600) - (253.1200, 347.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33332_TOP
+	bbox = (258.6200, 347.5600) - (258.6300, 347.6250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33437_TOP
+	bbox = (282.5600, 257.9600) - (282.5700, 258.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33310_TOP
+	bbox = (275.9100, 259.3600) - (275.9200, 259.4250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33420_TOP
+	bbox = (304.6000, 257.9600) - (304.6100, 258.0250) on Layer metal19
+violation type: Metal Spacing
+	srcs: net:N33277_TOP
+	bbox = (316.3800, 259.3600) - (316.3900, 259.4250) on Layer metal19
+violation type: Short
+	srcs: net:icache_1/_07982_
+	bbox = (261.8600, 375.3750) - (261.9300, 375.4450) on Layer metal19
+violation type: Short
+	srcs: net:N16234_TOP net:N33221_TOP
+	bbox = (253.3300, 377.8950) - (253.4000, 377.9650) on Layer metal20
+violation type: Short
+	srcs: net:N33253_TOP net:N33471_TOP
+	bbox = (249.9100, 375.7950) - (249.9800, 375.8300) on Layer metal20
+violation type: Short
+	srcs: net:icache_1/_04335_ net:icache_1/data_mem_bank_data_lo\[379\]
+	bbox = (213.0500, 127.2950) - (213.1100, 127.3650) on Layer metal20
+violation type: Short
+	srcs: net:icache_1/_04335_ net:icache_1/data_mem_bank_data_lo\[379\]
+	bbox = (213.0500, 127.2950) - (213.1200, 127.3650) on Layer metal20
+violation type: Short
+	srcs: net:N33276_TOP net:icache_1/_05980_
+	bbox = (266.8200, 259.1750) - (266.8900, 259.2450) on Layer metal20
+violation type: Short
+	srcs: net:icache_1/_07672_
+	bbox = (262.4300, 376.7750) - (262.5000, 376.8450) on Layer metal19
+violation type: Short
+	srcs: net:N33275_TOP net:N33507_TOP
+	bbox = (191.5800, 216.8950) - (191.6500, 216.9650) on Layer metal20
+violation type: Short
+	srcs: net:N16542_TOP net:N33204_TOP
+	bbox = (254.8500, 210.0350) - (254.9200, 210.1050) on Layer metal20
+violation type: Short
+	srcs: net:icache_1/_04869_
+	bbox = (205.2450, 102.3750) - (205.3150, 102.4450) on Layer metal19
+violation type: Short
+	srcs: net:icache_1/_04043_
+	bbox = (214.7550, 109.5150) - (214.8250, 109.5550) on Layer metal19
+violation type: Short
+	srcs: net:icache_1/_04869_ net:icache_1/_05402_
+	bbox = (204.9050, 102.5150) - (204.9750, 102.5500) on Layer metal19
+violation type: Short
+	srcs: net:icache_1/data_mem_bank_data_lo\[379\] net:icache_1/data_set_select_mux.data_i\[368\]
+	bbox = (213.0500, 127.9050) - (213.1100, 127.9750) on Layer metal20
+violation type: Short
+	srcs: net:icache_1/data_mem_bank_data_lo\[379\] net:icache_1/data_set_select_mux.data_i\[368\]
+	bbox = (213.0500, 127.9050) - (213.1200, 127.9750) on Layer metal20
+violation type: Short
+	srcs: net:icache_1/data_mem_bank_data_lo\[379\] net:icache_1/data_set_select_mux.data_i\[368\]
+	bbox = (213.0500, 127.9050) - (213.1100, 127.9250) on Layer metal20
+violation type: Short
+	srcs: net:icache_1/data_mem_bank_data_lo\[379\] net:icache_1/data_set_select_mux.data_i\[368\]
+	bbox = (213.0500, 127.9050) - (213.1200, 127.9250) on Layer metal20
+violation type: Short
+	srcs: net:N16479_TOP net:N33236_TOP
+	bbox = (264.6250, 169.6800) - (264.6700, 169.8200) on Layer metal15
+violation type: Short
+	srcs: net:N15481_TOP net:N33236_TOP
+	bbox = (266.5850, 169.9600) - (266.7250, 170.1000) on Layer metal15
+violation type: Short
+	srcs: net:N16436_TOP net:N16479_TOP
+	bbox = (262.1050, 169.4000) - (262.2450, 169.5400) on Layer metal16
+violation type: Short
+	srcs: net:N16479_TOP net:N16755_TOP
+	bbox = (262.3850, 169.4000) - (262.5250, 169.5400) on Layer metal16
+violation type: Short
+	srcs: net:N12842_TOP net:icache_1/data_mem_bank_data_lo\[342\]
+	bbox = (264.6250, 170.5200) - (264.7650, 170.6600) on Layer metal16
+violation type: Short
+	srcs: net:N12842_TOP net:icache_1/data_mem_bank_data_lo\[342\]
+	bbox = (264.6250, 170.5200) - (264.6700, 170.6600) on Layer metal16
+violation type: Short
+	srcs: net:N16436_TOP net:N16755_TOP
+	bbox = (262.3850, 169.1200) - (262.5250, 169.2600) on Layer metal16
+violation type: Short
+	srcs: net:N16436_TOP net:icache_1/data_mem_bank_data_lo\[346\]
+	bbox = (265.1850, 169.4000) - (265.3250, 169.5400) on Layer metal16
+violation type: Short
+	srcs: net:N16436_TOP net:icache_1/data_mem_bank_data_lo\[342\]
+	bbox = (264.9050, 169.4000) - (265.0450, 169.5400) on Layer metal16
+violation type: Short
+	srcs: net:N16865_TOP net:N33197_TOP
+	bbox = (266.8650, 171.6400) - (267.0050, 171.7800) on Layer metal16
+violation type: Short
+	srcs: net:N33197_TOP net:icache_1/data_mem_bank_data_lo\[341\]
+	bbox = (266.5850, 171.6400) - (266.7250, 171.7800) on Layer metal16
+violation type: Short
+	srcs: net:lce_cce_data_resp_o[192] net:lce_lce_tr_resp_i[335]
+	bbox = (263.5050, 217.5600) - (263.6450, 217.7000) on Layer metal15
+violation type: Short
+	srcs: net:lce_cce_data_resp_o[192] net:N17096_TOP
+	bbox = (265.1850, 217.5600) - (265.3250, 217.7000) on Layer metal15
+violation type: Short
+	srcs: net:lce_cce_data_resp_o[192] net:N17096_TOP
+	bbox = (264.3450, 217.5600) - (264.6700, 217.7000) on Layer metal15
+violation type: Short
+	srcs: net:lce_cce_data_resp_o[192] net:N17096_TOP
+	bbox = (264.5300, 217.5600) - (264.6700, 217.7000) on Layer metal15
+violation type: Short
+	srcs: net:lce_cce_data_resp_o[192] net:N17096_TOP
+	bbox = (264.5300, 217.6000) - (265.3250, 217.7000) on Layer metal15
+violation type: Short
+	srcs: net:lce_cce_data_resp_o[192] net:N17096_TOP
+	bbox = (264.3450, 217.6000) - (265.3250, 217.7000) on Layer metal15
+violation type: Short
+	srcs: net:lce_cce_data_resp_o[192] net:lce_lce_tr_resp_i[335]
+	bbox = (263.5050, 217.6000) - (263.6450, 217.7000) on Layer metal15
+violation type: Short
+	srcs: net:lce_lce_tr_resp_i[335] net:N33204_TOP
+	bbox = (263.2250, 217.5600) - (263.3650, 217.7000) on Layer metal15
+violation type: Short
+	srcs: net:N33538_TOP net:icache_1/data_mem_bank_data_lo\[342\]
+	bbox = (264.5300, 216.2300) - (264.6700, 216.5800) on Layer metal15
+violation type: Short
+	srcs: net:N33538_TOP net:icache_1/data_mem_bank_data_lo\[342\]
+	bbox = (264.5300, 216.2300) - (264.6700, 216.3700) on Layer metal15
+violation type: Short
+	srcs: net:N33538_TOP net:icache_1/data_mem_bank_data_lo\[342\]
+	bbox = (264.5300, 216.2300) - (264.6700, 216.3000) on Layer metal15
+violation type: Short
+	srcs: net:N33538_TOP net:icache_1/data_mem_bank_data_lo\[342\]
+	bbox = (264.5300, 216.4400) - (264.6700, 216.5800) on Layer metal15
+violation type: Short
+	srcs: net:lce_cce_data_resp_o[350] net:lce_lce_tr_resp_i[335]
+	bbox = (263.5050, 217.5600) - (263.6450, 217.7000) on Layer metal16
+violation type: Short
+	srcs: net:lce_cce_data_resp_o[350] net:icache_1/data_mem_bank_data_lo\[346\]
+	bbox = (264.9050, 217.5600) - (264.9650, 217.9800) on Layer metal16
+violation type: Short
+	srcs: net:lce_cce_data_resp_o[350] net:icache_1/data_mem_bank_data_lo\[346\]
+	bbox = (264.9050, 217.5600) - (264.9650, 217.7000) on Layer metal16
+violation type: Short
+	srcs: net:lce_cce_data_resp_o[350] net:icache_1/data_mem_bank_data_lo\[346\]
+	bbox = (264.9050, 217.8400) - (265.0450, 217.9800) on Layer metal16
+violation type: Short
+	srcs: net:N15449_TOP net:N16368_TOP
+	bbox = (263.2250, 219.5200) - (263.3650, 219.6600) on Layer metal16
+violation type: Short
+	srcs: net:N15479_TOP net:N15481_TOP
+	bbox = (265.1850, 216.4400) - (265.3250, 216.8600) on Layer metal16
+violation type: Short
+	srcs: net:N15479_TOP net:N15481_TOP
+	bbox = (265.1850, 216.4400) - (265.3250, 216.5800) on Layer metal16
+violation type: Short
+	srcs: net:N17096_TOP net:N33538_TOP
+	bbox = (263.7850, 216.2300) - (263.9250, 216.3000) on Layer metal16
+violation type: Short
+	srcs: net:icache_1/data_mem_bank_data_lo\[342\] net:icache_1/data_mem_bank_data_lo\[346\]
+	bbox = (264.6250, 216.2300) - (264.7650, 216.3700) on Layer metal16
+violation type: Short
+	srcs: net:icache_1/_01021_
+	bbox = (137.2350, 93.5550) - (137.3050, 93.6250) on Layer metal19
+violation type: Short
+	srcs: net:N16325_TOP net:icache_1/_06899_
+	bbox = (200.3200, 239.5750) - (200.3900, 239.6450) on Layer metal20
+violation type: Short
+	srcs: net:N33404_TOP net:N33510_TOP
+	bbox = (195.3800, 268.2750) - (195.4500, 268.3450) on Layer metal20
+violation type: Short
+	srcs: net:icache_1/lce/_05707_
+	bbox = (218.1750, 98.3150) - (218.2450, 98.3550) on Layer metal19
+violation type: Short
+	srcs: net:icache_1/data_mem_data_li\[0\]
+	bbox = (225.0250, 106.0150) - (225.0950, 106.0850) on Layer metal19
+violation type: Short
+	srcs: net:N33774_TOP net:icache_1/_01100_
+	bbox = (220.6300, 157.3600) - (220.7200, 157.4300) on Layer metal19
+violation type: Short
+	srcs: net:N33774_TOP net:icache_1/_01100_
+	bbox = (220.6300, 157.3950) - (220.7200, 157.4300) on Layer metal19
+violation type: Short
+	srcs: net:clk_i net:icache_1/lce/_01084_
+	bbox = (218.7500, 256.7945) - (218.8200, 256.7955) on Layer metal20
+violation type: Short
+	srcs: net:clk_i net:icache_1/lce/_01084_
+	bbox = (218.5600, 256.7945) - (218.8200, 256.7955) on Layer metal20
+violation type: Short
+	srcs: net:clk_i net:icache_1/lce/_01084_
+	bbox = (218.5600, 256.7450) - (218.6300, 256.7950) on Layer metal20
+violation type: Short
+	srcs: net:N33444_TOP
+	bbox = (225.0000, 281.7150) - (225.0700, 281.7600) on Layer metal19
+violation type: Short
+	srcs: net:N33444_TOP
+	bbox = (217.2100, 284.3750) - (217.2800, 284.4450) on Layer metal19
+violation type: Short
+	srcs: net:N33356_TOP net:N33493_TOP
+	bbox = (256.9400, 135.1350) - (257.0100, 135.2050) on Layer metal20
+violation type: Short
+	srcs: net:N33268_TOP net:N33493_TOP
+	bbox = (256.5600, 136.4300) - (256.6300, 136.5000) on Layer metal20
+violation type: Short
+	srcs: net:N15208_TOP net:N33716_TOP
+	bbox = (277.8400, 100.4700) - (278.6400, 101.2700) on Layer metal11
+violation type: Cut Spacing
+	srcs: net:N16303_BOT net:N33508_BOT
+	bbox = (262.8950, 244.4700) - (263.6950, 245.2700) on Layer via9
+violation type: Cut Spacing
+	srcs: net:N16801_BOT net:icache_1/data_mem_write_data\[21\]
+	bbox = (283.3200, 261.2700) - (283.6200, 262.0700) on Layer via9
